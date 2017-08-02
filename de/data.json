@@ -1,0 +1,313 @@
+{
+  "calendar":{
+    "day":{
+      "monday":"Montag",
+      "tuesday":"Dienstag",
+      "wednesday":"Mittwoch",
+      "thursday":"Donnerstag",
+      "friday":"Freitag",
+      "saturday":"Samstag",
+      "sunday":"Sonntag"
+    },
+    "day_short":{
+      "mon":"Mon",
+      "tue":"Die",
+      "wed":"Mit",
+      "thu":"Don",
+      "fri":"Fre",
+      "sat":"Sam",
+      "sun":"Son"
+    },
+    "month":{
+      "january":"Januar",
+      "february":"Februar",
+      "march":"März",
+      "april":"April",
+      "may":"Mai",
+      "june":"Juni",
+      "july":"Juli",
+      "august":"August",
+      "september":"September",
+      "october":"Oktober",
+      "november":"November",
+      "december":"Dezember"
+    },
+    "next_month":"Nächsten Monat",
+    "previous_month":"Vorheriger Monat"
+  },
+  "change-password":{
+    "heading":"Kennwort ändern",
+    "submit":"Kennwort ändern",
+    "success-message":"Das Kennwort wurde geändert"
+  },
+  "choose-account":{
+    "heading":"Wählen Sie ein Konto aus",
+    "remove":"Liste bearbeiten",
+    "remove-selected":"Ausgewählte Elemente löschen"
+  },
+  "confirm-personality":{
+    "heading":"Personalität bestätigen",
+    "subheading":"Bitte warten Sie bis Ihr Konto bestätigt wird.",
+    "success-message":"Ihr Konto wurde bestätigt"
+  },
+  "contact-admin":{
+    "describe-problem":"Beschreiben Sie Ihr Problem",
+    "email-helper":"Die Adresse wird für die Antwort benutzt",
+    "heading":"Administrator kontaktieren",
+    "submit":"Nachricht senden",
+    "success-message":"Der Admin wurde benachrichtigt",
+    "tel":"Please leave us here your mobile phone number"
+  },
+  "create-account":{
+    "alternative-email":"Alternative Mail-Adresse",
+    "domain":"Domain",
+    "full-name":"Ganzer Name",
+    "heading":"Konto erstellen",
+    "last-step":"Letzter Schritt",
+    "next-step":"Nächster Schritt"
+  },
+  "error":{
+    "auth_login_invalid":"Ungültiger Benutzername oder Kennwort",
+    "account_already_exists":"Konto existiert bereits",
+    "account_alternative_email":"Das Konto hat keine alternative Mail-Adresse, bitte kontaktieren Sie den Admin.",
+    "account_disabled":"Das Konto ist deaktiviert",
+    "account_invalid":"Das Konto ist ungültig",
+    "account_does_not_exist":"Das angegebene Konto existiert nicht",
+    "account_missing_required_property":"Ein paar Pflichtinformationen fehlen",
+    "account_no_password":"Das Kennwort ist ungültig oder fehlt",
+    "account_no_username":"Der Benutzername ist ungültig oder fehlt",
+    "account_no_domain":"Die Domain fehlt",
+    "account_password_policy":"Das Kennwort stimmt nicht mit der Kennwortrichtlinie überein",
+    "account_signup_disabled":"Automatische Anmeldung ist deaktiviert",
+    "account_signup_disabled_ip":"Die Anmeldung mit Ihrer IP-Adresse wurde vom Admin nicht gestattet",
+    "auth_webadmin_session_not_found":"WebAdmin-Session wurde nicht gefunden",
+    "captcha_confirmation":"Falscher Sicherheitscode",
+    "contact_support_no_admin_email":"Der Administrator hat keine Mail-Adresse gesetzt",
+    "db_auto_create":"Die automatische Erstellung der Datenbank ist nicht möglich",
+    "db_create_sqlitefile":"Die SQLite-DB-Datei kann nicht erstellt werden",
+    "db_create_tables":"Tabellen können nicht erstellt werden",
+    "db_invalid_statement":"Ungültiger Typ des Statements",
+    "domain_invalid":"Ungültige Domain",
+    "folder_get_list":"Ordnerliste kann nicht geladen werden",
+    "folder_open":"Ordner kann nicht geöffnet werden",
+    "group_open":"Gruppe kann nicht geöffnet werden",
+    "groupware_authenticate":"Anmeldung zur GroupWare fehlgeschlagen",
+    "groupware_db_connection":"GroupWare kann sich nicht mit der Datenbank verbinden",
+    "groupware_timeout":"GroupWare hat einen Timeout",
+    "groupware_upgrade_task":"Der GroupWare-Dienst wird aktualisiert. Bitte versuchen Sie es später erneut.",
+    "guest_invalid_hash":"Falscher Verifizierungs-Hash",
+    "gw_init_error":"GroupWare Ladefehler",
+    "language_path_not_found":"Sprachpfad wurde nicht gefunden",
+    "language-not-found":"Language file not found",
+    "logdir_create":"Verzeichnis für das Logging kann nicht erstellt werden",
+    "login_account_valid":"Ungültiges Konto",
+    "login_invalid":"Ungültige Anmeldung für diesen Benutzer",
+    "login_invalid_keypair":"RSA-Überprüfung fehlgeschlagen. Bitte versuchen Sie es erneut.",
+    "login_ip_invalid":"IP-Beschränkung der Anmeldung",
+    "migration_in_progress":"Migration des Kontos läuft. Bitte versuchen Sie es später erneut.",
+    "missing_request_params":"Requestparameter fehlen",
+    "no_teamchat_folders":"Ein TeamChat-Ordner fehlt, Anmeldung nicht möglich.",
+    "password_not_changed":"Das neue Kennwort muss sich zum alten unterscheiden.",
+    "personality_confirmation_invalid_hashid":"Mail-Adresse konnte nicht bestätigt werden: Ungültiger Hash",
+    "personality_confirmation_invalid_user":"Mail-Adresse konnte nicht bestätigt werden: Ungültiger Benutzer",
+    "reset_disabled":"Kennwortzurücksetzung ist deaktiviert",
+    "reset_password_invalid_hashid":"Ungültige Hash-ID",
+    "reset_password_no_hash":"Ungültige Hash-ID",
+    "reset_password_uid_file":"UID-Datei existiert nicht",
+    "rsa_create_key_pair":"Das RSA-Schlüsselpaar kann nicht erstellt werden",
+    "session_cookie_mismatch":"Session-Cookie stimmt nicht überein",
+    "session_expired":"Session abgelaufen",
+    "session_ip_mismatch":"Session IP stimmt nicht überein",
+    "session_mismatch":"Session stimmt nicht überein",
+    "session_no_user":"Der Benutzer der Session kann nicht abgefragt werden",
+    "setting_file_corrupted":"Webmail-Servereinstellungen sind beschädigt. Bitte kontaktieren Sie den Administrator.",
+    "signup_verification_failed_sms":"Die SMS-Bestätigung kann nicht gesendet werden",
+    "signup_verification_failed_email":"Die Mail-Bestätigung kann nicht gesendet werden",
+    "signup_verification_not_initialized":"Die Bestätigung wurde nicht geladen",
+    "signup_verification_failed":"Bestätigung fehlgeschlagen",
+    "sso_login_not_allowed":"SSO-Anmeldung ist nicht erlaubt",
+    "sso_unable_to_use":"SSO kann nicht genutzt werden",
+    "sso_error":"Fehler beim Versuch der SSO-Anmeldung aufgetreten",
+    "storage_get_dom":"Die Datei mit den Einstellungen kann nicht geladen werden",
+    "unavailable":"Kurzfristig nicht verfügbar",
+    "unspecified":"Server antwortete mit dem Fehler  **%{error}**",
+    "user_settings_global":"Einstellungen können nicht geladen werden",
+    "wm_disabled":"WebClient ist deaktiviert"
+  },
+  "forgot-password":{
+    "heading":"Kennwort vergessen",
+    "submit":"Weitere Anweisungen schicken",
+    "success-message":"Die E-Mail wurde zu Ihrer alternativen Mail-Adresse gesendet",
+    "success-message-guest":"Die E-Mail wurde zu Ihrer Mail-Adresse gesendet"
+  },
+  "gateway-login":{
+    "subheading":"Melden Sie sich mit Ihrem Administratorkonto an, um Domain und Benutzer zu verwalten",
+    "success-message":"Wir haben Ihnen eine E-Mail mit einem Sicherheitslink gesendet. Wenn Sie diesen Link anklicken, haben Sie einen zeitlich begrenzten Zugriff das Spam-Management."
+  },
+  "generic":{
+    "back":"Zurück",
+    "cancel":"Abbrechen",
+    "captcha-generate":"Neues generieren",
+    "check-account":"Bitte überprüfen Sie Ihr Konto erneut",
+    "choose-different-account":"Bitte wählen Sie ein anderes Konto",
+    "confirm":"Bestätigen",
+    "contact-admin":"Admin kontaktieren",
+    "copyright":"Powered by IceWarp",
+    "create-acc":"Konto erstellen",
+    "done":"Fertig",
+    "email":"E-Mail-Adresse",
+    "error":"Fehler",
+    "female":"Frau",
+    "find_out_more":"Um mehr über IceWarp zu erfahren, besuchen Sie bitte [www.icewarp.de](\/\/www.icewarp.de)",
+    "fullscreen-enter":"Vollbildschirmmodus nutzen",
+    "fullscreen-exit":"Vollbildschirmmodus verlassen",
+    "have-account":"Sie haben bereits ein Konto?",
+    "dont-have-account":"Sie haben noch kein Konto?",
+    "hide":"Ausblenden",
+    "male":"Mann",
+    "next":"Weiter",
+    "not-you":"Nicht Sie?",
+    "password":"Kennwort",
+    "password-confirm":"Kennwort bestätigen",
+    "password-current":"Aktuelles Kennwort",
+    "password-new":"Neues Kennwort",
+    "password-policy":"Kennwortrichtlinie",
+    "retry":"Wiederholen",
+    "save-password":"Neues Kennwort speichern",
+    "search":"Suchen",
+    "security-code":"Sicherheitscode",
+    "send":"Senden",
+    "show":"Zeigen",
+    "sign-in":"Anmelden",
+    "sign-with-another-acc":"Mit anderem Konto anmelden",
+    "skip":"Überspringen",
+    "success":"Erfolg",
+    "undefined":"Nicht definiert",
+    "understand":"OK, ich verstehe",
+    "undisclosed_participant":"Unbekannter Teilnehmer",
+    "username":"Benutzername"
+  },
+  "guest-verify":{
+    "heading":"Gastbestätigung",
+    "subheading":"Bitte warten Sie bis Ihr Konto bestätigt wird",
+    "success-message":"Ihr Konto wurde bestätigt"
+  },
+  "interface":{
+    "label":"Oberfläche",
+    "desktop":"Desktop",
+    "tablet":"Tablet",
+    "phone":"Telefon"
+  },
+  "personal":{
+    "heading":"Persönliche Informationen",
+    "nickname":"Spitzname",
+    "birthday":"Geburtstag",
+    "company":"Unternehmen",
+    "job":"Beruf",
+    "profession":"Beruf",
+    "mobile-phone":"Handynummer",
+    "work-phone":"Telefon - Geschäftlich",
+    "home-phone":"Telefon - Privat",
+    "im":"IM",
+    "gender":"Geschlecht",
+    "homepage":"Webseite"
+  },
+  "reset-password":{
+    "heading":"Kennwort zurücksetzen",
+    "success-message":"Das Kennwort wurde geändert"
+  },
+  "set-password":{
+    "code_sent_to":"Der Bestätigungscode wurde gesendet an *%{to}*.",
+    "verification_code":"Bestätigunscode",
+    "heading":"Sie sind fast fertig!",
+    "submit":"Konto erstellen",
+    "success-message":"Das Konto wurde erstellt"
+  },
+  "sign-in-generic":{
+    "heading":{
+      "webclient":"Im WebClient anmelden",
+      "webadmin":"Im WebAdmin anmelden"
+    }
+  },
+  "sign-in-password":{
+    "forgot":"Vergessen?",
+    "remember":"Angemeldet bleiben"
+  },
+  "tc-actions":{
+    "heading":"Mit Button-Aktionen",
+    "subheading":"Sie können alle TeamChat-Aktionen einfach durch die Verwendung des Multi-Aktions + Button durchführen."
+  },
+  "tc-check-email":{
+    "heading":"Bitte überprüfen Sie Ihre E-Mail",
+    "subheading":"Bestätigen Sie die Mail-Adresse und nutzen Sie danach **die Kombination aus Ihrer Mail-Adresse und des erstellten Kennworts** , um sich mit anderen Benutzern im Chatraum **%{room}** unterhalten zu können",
+    "submit":"Gehen Sie zur Anmeldeseite",
+    "success-message":"Die E-Mail wurde bestätigt"
+  },
+  "tc-collaboration":{
+    "heading":"Zusammenarbeit in Teams",
+    "subheading":"Ideen austauschen, Dateien oder andere Daten teilen, sich darüber in verschiedenen Gruppen in Echtzeit unterhalten."
+  },
+  "tc-join":{
+    "heading":"An unserem TeamChat teilnehmen",
+    "subheading":"%{name} hat Sie eingeladen, um am TeamChat im Raum _%{room}_ teilzunehmen",
+    "submit":"Mail-Adresse bestätigen",
+    "success-message":"Sie sind jetzt im Raum %{room}",
+    "username":"Name",
+    "username-helper":"Bitte geben Sie einen Namen zur Anzeige im TeamChat ein",
+    "what-is-teamchat":"Was ist TeamChat?"
+  },
+  "tc-share":{
+    "heading":"Alles einfach teilen",
+    "subheading":"Drücken & ziehen Sie Dokumente oder andere Dateien herein und teilen bzw. bearbeiten Sie diese direkt innerhalb des Fensters."
+  },
+  "title":{
+    "webadmin":"IceWarp WebAdmin",
+    "webclient":"IceWarp WebClient"
+  },
+  "touch-id":{
+    "heading":"Mit touch-ID anmelden",
+    "use-password":"lieber Kennwort verwenden"
+  },
+  "validation":{
+    "alpha_chars":"Das Feld muss mindestens %{amount} Buchstaben enthalten||||Das Feld muss mindestens %{amount} enthalten",
+    "email":"Ungültige E-Mail",
+    "empty":"Das Feld darf nicht leer sein",
+    "length":"Die Länge muss %{amount} Zeichen lang sein",
+    "min_length":"Die minimale Länge muss %{amount} Zeichen enthalten",
+    "non_alpha_num_chars":"Das Feld muss mindestens %{amount} anderweitige Zeichen enthalten||||Das Feld muss mindestens %{amount} anderweitige Zeichen enthalten",
+    "numeric_chars":"Das Feld muss mindestens %{amount} Nummern enthalten||||Das Feld muss mindestens %{amount} Nummern enthalten",
+    "passwords-no-match":"Kennwort stimmt nicht überein",
+    "upper_alpha_chars":"Das Feld muss mindestens %{amount} Großbuchstaben enthalten||||Das Feld muss mindestens %{amount} Großbuchstaben enthalten",
+    "user_alias":"Benutzernamen bitte nicht ins Feld einfügen"
+  },
+  "wm-join":{
+    "already-member":"Bereits Mitglied",
+    "audio-help":"Audio-Hilfe",
+    "heading":"An unserem WebMeeting teilnehmen",
+    "join-webmeeting":"Am WebMeeting teilnehmen",
+    "subheading":"Das von %{name} erstellte WebMeeting ist startklar",
+    "subheading-prepare":"Es wird auf die Info des WebMeetings gewartet",
+    "success-message":"Sie sind jetzt im Raum %{room}",
+    "username":"Name",
+    "username-helper":"Bitte wählen Sie einen Namen zur Anzeige im WebMeeting"
+  },
+  "wm":{
+    "error":"Fehler während des WebMeetings aufgetreten",
+    "hang-up":"Auflegen",
+    "hang-up-confirm":"Möchten Sie dieses WebMeeting wirklich verlassen?",
+    "maximize":"Fenster vergrößern",
+    "microphone-denied":"Zugriff auf das Mikrofon wurde abgelehnt",
+    "microphone-denied-helper":"Sie sind nicht in der Lage im WebMeeting zu sprechen",
+    "no-microphone-detected":"Es wurde kein Mikrofon erkannt",
+    "phone-number":"Telefonnummer",
+    "restore":"Fenster wiederherstellen",
+    "screen-share-started":"ScreenSharing wurde gestartet",
+    "screen-share-stopped":"ScreenSharing wurde gestoppt",
+    "unsupported":"Ihr Browser unterstützt WebRTC nicht",
+    "unsupported-text":"[Mehr Infos](%{link})",
+    "user-joined":"Benutzer **%{name}** nimmt am Meeting teil",
+    "user-left":"Benutzer **%{name}** hat das Meeting verlassen",
+    "meeting-ended":"Das WebMeeting ist zu Ende",
+    "welcome-message":"Willkommen beim WebMeeting, **%{name}**! Der Gruppenchat ist startklar."
+  }
+}

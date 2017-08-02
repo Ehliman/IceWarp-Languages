@@ -1,0 +1,313 @@
+{
+  "calendar":{
+    "day":{
+      "monday":"월요일",
+      "tuesday":"화요일",
+      "wednesday":"수요일",
+      "thursday":"목요일",
+      "friday":"금요일",
+      "saturday":"토요일",
+      "sunday":"일요일"
+    },
+    "day_short":{
+      "mon":"월",
+      "tue":"화",
+      "wed":"수",
+      "thu":"목",
+      "fri":"금",
+      "sat":"토",
+      "sun":"일"
+    },
+    "month":{
+      "january":"1월",
+      "february":"2월",
+      "march":"3월",
+      "april":"4월",
+      "may":"5월",
+      "june":"6월",
+      "july":"7월",
+      "august":"8월",
+      "september":"9월",
+      "october":"10월",
+      "november":"11월",
+      "december":"12월"
+    },
+    "next_month":"다음 달",
+    "previous_month":"이전 달"
+  },
+  "change-password":{
+    "heading":"비밀번호 변경",
+    "submit":"비밀번호 변경",
+    "success-message":"비밀번호가 변경되었습니다"
+  },
+  "choose-account":{
+    "heading":"계정 선택",
+    "remove":"목록 수정",
+    "remove-selected":"선택 제거"
+  },
+  "confirm-personality":{
+    "heading":"개성 확인",
+    "subheading":"계정을 확인하는 동안 잠시만 기다려주세요",
+    "success-message":"계정이 확인되었습니다"
+  },
+  "contact-admin":{
+    "describe-problem":"문제에 대해 설명해 주세요",
+    "email-helper":"회신받을 주소",
+    "heading":"관리자에 문의",
+    "submit":"편지 발송",
+    "success-message":"관리자에게 알림을 보냈습니다",
+    "tel":"Please leave us here your mobile phone number"
+  },
+  "create-account":{
+    "alternative-email":"대안 메일주소",
+    "domain":"도메인",
+    "full-name":"이름",
+    "heading":"계정 생성",
+    "last-step":"마지막 단계",
+    "next-step":"다음 단계"
+  },
+  "error":{
+    "auth_login_invalid":"아이디 또는 비밀번호 오류",
+    "account_already_exists":"계정이 이미 존재합니다",
+    "account_alternative_email":"계정이 대안 메일 주소를 갖고 있지 않습니다. 관리자에게 문의하세요",
+    "account_disabled":"계정 사용불가",
+    "account_invalid":"계정 오류",
+    "account_does_not_exist":"설정한 계정이 존재하지 않습니다",
+    "account_missing_required_property":"필수 속성 중 일부가 누락되었습니다.",
+    "account_no_password":"계정 비밀번호가 없거나 설정되지 않았습니다",
+    "account_no_username":"계정 아이디가 없거나 설정되지 않았습니다",
+    "account_no_domain":"도메인이 없습니다",
+    "account_password_policy":"비밀번호가 비밀번호 정책에 부합하지 않습니다",
+    "account_signup_disabled":"자기 계정등록 불가",
+    "account_signup_disabled_ip":"사용자의 IP 주소에서 관리자가 계정등록을 할 수 없습니다",
+    "auth_webadmin_session_not_found":"웹관리자 세션을 찾을 수 없습니다",
+    "captcha_confirmation":"잘못된 보안 코드",
+    "contact_support_no_admin_email":"관리자가 이메일 주소를 설정하지 않았습니다",
+    "db_auto_create":"데이터베이스 자동 생성을 할 수 없습니다",
+    "db_create_sqlitefile":"SQLite DB 파일을 생성할 수 없습니다",
+    "db_create_tables":"테이블을 생성할 수 없습니다",
+    "db_invalid_statement":"잘못된 쿼리문 형식입니다",
+    "domain_invalid":"잘못된 도메인",
+    "folder_get_list":"폴더 목록을 가져올 수 없습니다",
+    "folder_open":"폴더를 열 수 없습니다",
+    "group_open":"그룹을 열 수 없습니다",
+    "groupware_authenticate":"그룹웨어 로그인 실패",
+    "groupware_db_connection":"그룹웨어가 데이터베이스에 연결할 수 없습니다",
+    "groupware_timeout":"그룹웨어 시간초과",
+    "groupware_upgrade_task":"그룹웨어 서비스 업데이트 절차가 진행 중입니다. 다음에 다시 시도해 주세요.",
+    "guest_invalid_hash":"잘못된 검증 해시",
+    "gw_init_error":"그룹웨어 초기화 오류",
+    "language_path_not_found":"언어 경로를 찾을 수 없습니다",
+    "language-not-found":"Language file not found",
+    "logdir_create":"로그 디렉토리를 생성할 수 없습니다",
+    "login_account_valid":"잘못된 계정",
+    "login_invalid":"사용자에 대한 잘못된 로그인",
+    "login_invalid_keypair":"RSA 검증 실패. 다시 시도해 주세요.",
+    "login_ip_invalid":"로그인 IP 제한",
+    "migration_in_progress":"계정 마이그레이션이 진행 중입니다. 다음에 다시 시도해 주세요",
+    "missing_request_params":"요청한 매개변수가 설정되지 않았습니다",
+    "no_teamchat_folders":"팀채팅 폴더가 없어 로그인할 수 없습니다",
+    "password_not_changed":"새 비밀번호는 기존 비밀번호와 달라야 합니다",
+    "personality_confirmation_invalid_hashid":"Email 주소를 승인할 수 없습니다:  잘못된 해시",
+    "personality_confirmation_invalid_user":"Email 주소를 승인할 수 없습니다: 잘못된 사용자",
+    "reset_disabled":"비밀번호 리셋을 사용할 수 없습니다",
+    "reset_password_invalid_hashid":"잘못된 해시 ID",
+    "reset_password_no_hash":"잘못된 해시 ID",
+    "reset_password_uid_file":"UID 파일이 존재하지 않습니다",
+    "rsa_create_key_pair":"RSA 키 쌍을 생성할 수 없습니다",
+    "session_cookie_mismatch":"세션 쿠키가 일치하지 않습니다",
+    "session_expired":"세션 만료",
+    "session_ip_mismatch":"세션 IP 불일치",
+    "session_mismatch":"세션 불일치",
+    "session_no_user":"사용자 객체 세션을 조회할 수 없습니다",
+    "setting_file_corrupted":"웹메일 서버 설정이 손상되었습니다. 관리자에게 문의하세요.",
+    "signup_verification_failed_sms":"SMS 인증을 발송할 수 없습니다",
+    "signup_verification_failed_email":"이메일 확인을 발송할 수 없습니다",
+    "signup_verification_not_initialized":"검증을 초기화하지 못했습니다",
+    "signup_verification_failed":"검증 실패",
+    "sso_login_not_allowed":"SSO 로그인이 허용되지 않았습니다",
+    "sso_unable_to_use":"SSO를 사용할 수 없습니다",
+    "sso_error":"SSO 로그인 사용 시도시 오류",
+    "storage_get_dom":"설정 파일을 로딩할 수 없습니다",
+    "unavailable":"일시적인 장애",
+    "unspecified":"서버가 오류 **%{error}**를 반환하였습니다",
+    "user_settings_global":"설정을 로딩할 수 없습니다",
+    "wm_disabled":"WebClient를 사용할 수 없습니다"
+  },
+  "forgot-password":{
+    "heading":"비밀번호 분실",
+    "submit":"설명을 보내주세요",
+    "success-message":"사용자의 대안 메일 주소로 이메일이 발송되었습니다",
+    "success-message-guest":"사용자의 메일 주소로 이메일이 발송되었습니다"
+  },
+  "gateway-login":{
+    "subheading":"도메인과 사용자를 관리하기 위해 관리자 계정으로 로그인하세요",
+    "success-message":"보안 링크를 포함한 이메일을 발송해 드렸습니다. 링크를 클릭하여 제한된 시간 안에 스팸 관리자로 액세스하세요."
+  },
+  "generic":{
+    "back":"뒤로",
+    "cancel":"취소",
+    "captcha-generate":"신규 생성",
+    "check-account":"계정을 다시 확인해 주세요",
+    "choose-different-account":"다른 계정을 선택하세요",
+    "confirm":"확인",
+    "contact-admin":"관리자에 문의",
+    "copyright":"Powered by IceWarp",
+    "create-acc":"계정을 생성합니다",
+    "done":"완료",
+    "email":"Email 주소",
+    "error":"오류",
+    "female":"여성",
+    "find_out_more":"IceWarp 서버에 대한 자세한 정보는  [www.icewarp.co.kr](\/\/www.icewarp.co.kr)을 방문하세요",
+    "fullscreen-enter":"전체화면 보기",
+    "fullscreen-exit":"전체화면 종료",
+    "have-account":"계정을 이미 갖고 계신가요?",
+    "dont-have-account":"계정이 없으신가요?",
+    "hide":"숨김",
+    "male":"남성",
+    "next":"다음",
+    "not-you":"본인이 아닌가요?",
+    "password":"비밀번호",
+    "password-confirm":"비밀번호 확인",
+    "password-current":"현재 비밀번호",
+    "password-new":"새 비밀번호",
+    "password-policy":"비밀번호 정책",
+    "retry":"재시도",
+    "save-password":"새 비밀번호 저장",
+    "search":"검색",
+    "security-code":"보안 코드",
+    "send":"발송",
+    "show":"보기",
+    "sign-in":"로그인",
+    "sign-with-another-acc":"다른 계정으로 로그인",
+    "skip":"건너뛰기",
+    "success":"성공",
+    "undefined":"정의되지 않음",
+    "understand":"알겠습니다.",
+    "undisclosed_participant":"비밀 참가자",
+    "username":"아이디"
+  },
+  "guest-verify":{
+    "heading":"손님 확인",
+    "subheading":"사용자 계정을 확인하는 동안 잠시만 기다려주세요",
+    "success-message":"사용자 계정이 확인되었습니다"
+  },
+  "interface":{
+    "label":"인터페이스",
+    "desktop":"데스크탑",
+    "tablet":"태블릿",
+    "phone":"휴대폰"
+  },
+  "personal":{
+    "heading":"개인 정보",
+    "nickname":"별명",
+    "birthday":"생일",
+    "company":"회사",
+    "job":"직책",
+    "profession":"전문분야",
+    "mobile-phone":"휴대폰",
+    "work-phone":"직장 전화",
+    "home-phone":"집 전화",
+    "im":"메신저",
+    "gender":"성별",
+    "homepage":"홈페이지"
+  },
+  "reset-password":{
+    "heading":"비밀번호 리셋",
+    "success-message":"비밀번호가 변경되었습니다"
+  },
+  "set-password":{
+    "code_sent_to":"검증 코드가 *%{to}*에게 발송되었습니다.",
+    "verification_code":"검증 코드",
+    "heading":"거의 다 되었습니다!",
+    "submit":"게정을 생성합니다",
+    "success-message":"계정이 생성되었습니다"
+  },
+  "sign-in-generic":{
+    "heading":{
+      "webclient":"웹클라이언트 로그인",
+      "webadmin":"웹관리자 로그인"
+    }
+  },
+  "sign-in-password":{
+    "forgot":"분실했습니까?",
+    "remember":"로그인 상태 유지"
+  },
+  "tc-actions":{
+    "heading":"더하기 버튼 처리",
+    "subheading":"멀티 처리 '+' 버튼을 사용하여 모든 팀채팅 처리를 쉽게 관리할 수 있습니다."
+  },
+  "tc-check-email":{
+    "heading":"이메일 주소를 확인합니다",
+    "subheading":"이메일 주소를 검증하고  **참여하기 위한 이메일 주소와 비밀번호 조합**을 사용하여  **%{room}** 팀채팅 대화방에서 다른 사용자와 대화할 수 있습니다",
+    "submit":"로그인 페이지 가기",
+    "success-message":"Email이 확인되었습니다"
+  },
+  "tc-collaboration":{
+    "heading":"팀 내에서 협업",
+    "subheading":"아이디어, 파일 또는 다른 데이터를 교환하고 실시간으로 다른 그룹과 토론할 수 있습니다."
+  },
+  "tc-join":{
+    "heading":"우리 팀채팅에 참여",
+    "subheading":"%{name} 님이 사용자 님을 _%{room}_ 팀채팅 방으로 초대하였습니다",
+    "submit":"내 이메일 주소를 확인합니다",
+    "success-message":"사용자 님이  %{room}에 참여하였습니다",
+    "username":"이름",
+    "username-helper":"팀채팅에서 보여질 이름을 추가",
+    "what-is-teamchat":"팀채팅이 무었입니까?"
+  },
+  "tc-share":{
+    "heading":"쉽게 모든 것을 공유",
+    "subheading":"문서나 미디어 파일을 드래그 & 드롭하여 어플에서 공유하거나 수정할 수 있습니다."
+  },
+  "title":{
+    "webadmin":"IceWarp 웹관리자",
+    "webclient":"IceWarp 웹클라이언트"
+  },
+  "touch-id":{
+    "heading":"터치 ID로 로그인",
+    "use-password":"비밀번호 대신 사용"
+  },
+  "validation":{
+    "alpha_chars":"이 필드는 적어도  %{amount} 문자를 담아야 합니다||||이 필드는 적어도  %{amount} 문자를 포함하여야 합니다",
+    "email":"잘못된 이메일",
+    "empty":"이 필드는 입력하셔야 합니다",
+    "length":"길이는 %{amount} 문자 이상이어야 합니다",
+    "min_length":"최소 길이는  %{amount} 문자입니다",
+    "non_alpha_num_chars":"이 필드는 최소 %{amount} 개의 특수문자를 포함하여야 합니다||||이 필드는 최소  %{amount} 개의 특수 문자를 포함하여야 합니다",
+    "numeric_chars":"이 필드는 최소  %{amount} 개의 숫자를 포함하여야 합니다||||이 필드는 최소  %{amount} 개의 숫자를 포함하여야 합니다",
+    "passwords-no-match":"비밀번호가 일치하지 않습니다",
+    "upper_alpha_chars":"이 필드는 최소  %{amount} 개의 대문자를 포함하여야 합니다||||이 필드는 최소 %{amount} 개의 대문자를 포함하여야 합니다",
+    "user_alias":"이 필드는 아이디를 포함할 수 없습니다"
+  },
+  "wm-join":{
+    "already-member":"이미 회원입니다",
+    "audio-help":"오디오 도움말",
+    "heading":"우리 웹미팅에 참여",
+    "join-webmeeting":"웹미팅 참여",
+    "subheading":"%{name} 가 생성한 웹미팅이 준비되어 있습니다",
+    "subheading-prepare":"웹미팅 정보를 준비하고 있습니다",
+    "success-message":"사용자님은 %{room} 대화방에 참여하였습니다",
+    "username":"이름",
+    "username-helper":"웹미팅에 보여질 이름 추가"
+  },
+  "wm":{
+    "error":"웹미팅 중 오류",
+    "hang-up":"끊기",
+    "hang-up-confirm":"웹미팅에서 나가시겠습니까?",
+    "maximize":"창 최대화",
+    "microphone-denied":"마이크 액세스 불가",
+    "microphone-denied-helper":"웹미팅에서 말을 할 수 없습니다",
+    "no-microphone-detected":"마이크를 찾을 수 없습니다",
+    "phone-number":"전화 번호",
+    "restore":"창 복구",
+    "screen-share-started":"화면 공유 시작",
+    "screen-share-stopped":"화면 공유 중지",
+    "unsupported":"이 브라우저는 WebRTC를 지원하지 않습니다",
+    "unsupported-text":"[더 자세히](%{link})",
+    "user-joined":"**%{name}** 님이 미팅에 참여하였습니다",
+    "user-left":"**%{name}** 님이 미팅에서 나가셨습니다",
+    "meeting-ended":"웹미팅이 종료되었습니다.",
+    "welcome-message":"웹미팅에 오신 것을 환영합니다. **%{name}**! 그룹 채팅이 준비되어 있습니다."
+  }
+}

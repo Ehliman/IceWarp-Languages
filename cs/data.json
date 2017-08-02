@@ -1,0 +1,313 @@
+{
+  "calendar":{
+    "day":{
+      "monday":"Pondělí",
+      "tuesday":"Úterý",
+      "wednesday":"Středa",
+      "thursday":"Čtvrtek",
+      "friday":"Pátek",
+      "saturday":"Sobota",
+      "sunday":"Neděle"
+    },
+    "day_short":{
+      "mon":"Po",
+      "tue":"Út",
+      "wed":"St",
+      "thu":"Čt",
+      "fri":"Pá",
+      "sat":"So",
+      "sun":"Ne"
+    },
+    "month":{
+      "january":"Leden",
+      "february":"Únor",
+      "march":"Březen",
+      "april":"Duben",
+      "may":"Květen",
+      "june":"Červen",
+      "july":"Červenec",
+      "august":"Srpen",
+      "september":"Září",
+      "october":"Říjen",
+      "november":"Listopad",
+      "december":"Prosinec"
+    },
+    "next_month":"Další měsíc",
+    "previous_month":"Předchozí měsíc"
+  },
+  "change-password":{
+    "heading":"Změnit heslo",
+    "submit":"Změnit heslo",
+    "success-message":"Heslo bylo změněno"
+  },
+  "choose-account":{
+    "heading":"Zvolit účet",
+    "remove":"Upravit seznam",
+    "remove-selected":"Vyjmout zvolené"
+  },
+  "confirm-personality":{
+    "heading":"Potvrdit účet",
+    "subheading":"Prosím počkejte. Dochází k ověření Vašeho účtu.",
+    "success-message":"Váš účet byl ověřen"
+  },
+  "contact-admin":{
+    "describe-problem":"Popište svůj problém",
+    "email-helper":"Použitá adresa bude použitá k odpovědi.",
+    "heading":"Kontaktovat správce",
+    "submit":"Odeslat zprávu",
+    "success-message":"Správce byl upozorněn",
+    "tel":"Prosím zadejte své mobilní telefonní číslo"
+  },
+  "create-account":{
+    "alternative-email":"Alternativní e-mailová adresa",
+    "domain":"Doména",
+    "full-name":"Plné jméno",
+    "heading":"Vytvořit účet",
+    "last-step":"Poslední krok",
+    "next-step":"Další krok"
+  },
+  "error":{
+    "auth_login_invalid":"Neplatné přihlašovací jméno nebo heslo",
+    "account_already_exists":"Účet již existuje",
+    "account_alternative_email":"Účty nemají nastavenou alternativní e-mailovou adresu. Pro přístup k účtu je nutné kontaktovat správce.",
+    "account_disabled":"Účet deaktivován.",
+    "account_invalid":"Neplatný účet",
+    "account_does_not_exist":"Účet neexistuje",
+    "account_missing_required_property":"Některé z požadovaných nastavení schází",
+    "account_no_password":"Heslo k účtu je prázdné",
+    "account_no_username":"Jméno účtu je prázdné",
+    "account_no_domain":"Chybí doména",
+    "account_password_policy":"Heslo není možné použít kvůli nastavené politice hesel",
+    "account_signup_disabled":"Vytvoření vlastního účtu je zakázené",
+    "account_signup_disabled_ip":"Správce zakázal možnost přihlášení z Vaší IP adresy",
+    "auth_webadmin_session_not_found":"WebAdmin spojení nebylo nalezeno",
+    "captcha_confirmation":"Neplatný bezpečnostní kód",
+    "contact_support_no_admin_email":"Správce nenastavil e-mailovou adresu",
+    "db_auto_create":"Není možné automaticky vytvořit databázi",
+    "db_create_sqlitefile":"Není možné vytvořit SQLite DB soubor",
+    "db_create_tables":"Není možné vytvořit tabulky",
+    "db_invalid_statement":"Neplatný typ DB dotazu",
+    "domain_invalid":"Neplatná doména",
+    "folder_get_list":"Není možné získat seznam složek",
+    "folder_open":"Není možné otevřít složku",
+    "group_open":"Není možné otevřít skupinu",
+    "groupware_authenticate":"Přihlášení do služby GroupWare selhalo",
+    "groupware_db_connection":"Služba GroupWare se nemůže přihlásit do databáze",
+    "groupware_timeout":"GroupWare vypršel",
+    "groupware_upgrade_task":"Právě probíhá aktualizace služby GroupWare. Prosím zkuste opakovat akci později.",
+    "guest_invalid_hash":"Neplatný ověřovací hash",
+    "gw_init_error":"Inicializace služby GroupWare selhala",
+    "language_path_not_found":"Cesta k jazyku nebyla nalezena",
+    "language-not-found":"Soubor s jazykovým překladem nebyl nalezen",
+    "logdir_create":"Není možné vytvořit adresář pro záznamy",
+    "login_account_valid":"Neplatný účet",
+    "login_invalid":"Neplatné uživatelské jméno",
+    "login_invalid_keypair":"RSA validace selhala. Zkuste to prosím znovu.",
+    "login_ip_invalid":"Omezení přihlašování z IP adres",
+    "migration_in_progress":"Probíhá migrace účtů. Zkuste to prosím později.",
+    "missing_request_params":"Schází dotazovací parametr.",
+    "no_teamchat_folders":"TeamChat místnost neexistuje. Přihlášení nebylo úspěšné.",
+    "password_not_changed":"Nové heslo nemůže být stejné jako staré heslo.",
+    "personality_confirmation_invalid_hashid":"E-mailová adresa nemůže být potvrzena kvůli neplatnému hashi.",
+    "personality_confirmation_invalid_user":"E-mailová adresa nemůže být potvrzena kvůli neplatnosti uživatele.",
+    "reset_disabled":"Reset hesla byl zakázán.",
+    "reset_password_invalid_hashid":"Neplatné hash ID",
+    "reset_password_no_hash":"Neplatné hash ID",
+    "reset_password_uid_file":"UID soubor neexistuje",
+    "rsa_create_key_pair":"Není možné vytvořit RSA pár klíčů",
+    "session_cookie_mismatch":"Cookies pro spojení se neshodují.",
+    "session_expired":"Platnost spojení vypršela",
+    "session_ip_mismatch":"IP adresa spojení se neshoduje",
+    "session_mismatch":"Neplatné spojení",
+    "session_no_user":"Uživatelský objekt nemůže být získán",
+    "setting_file_corrupted":"Nastavení aplikace Webclient je poškozené. Prosím kontaktujte správce.",
+    "signup_verification_failed_sms":"Není možné odeslat ověrovací SMS",
+    "signup_verification_failed_email":"Není možné odeslat ověřovací e-mail",
+    "signup_verification_not_initialized":"Verifikace nezačala",
+    "signup_verification_failed":"Verifikace selhala",
+    "sso_login_not_allowed":"SSO přihlašování není povoleno",
+    "sso_unable_to_use":"Není možné použít SSO",
+    "sso_error":"Nastala chyba při přihlašování pomocí SSO",
+    "storage_get_dom":"Nebylo možné načíst soubor s nastavením",
+    "unavailable":"Dočasně nedostupný",
+    "unspecified":"Server vrátil chybu **%{error}**",
+    "user_settings_global":"Není možné načíst nastavení",
+    "wm_disabled":"WebClient je vypnutý"
+  },
+  "forgot-password":{
+    "heading":"Zapomenuté heslo",
+    "submit":"Pošlete mi instrukce",
+    "success-message":"E-mailová zpráva s instrukcemi byla odeslána na Vámi nastavenou alternativní e-mailovou adresu",
+    "success-message-guest":"E-mailová zpráva byla odeslána na Vaši adresu"
+  },
+  "gateway-login":{
+    "subheading":"Pro správu uživatelů a domén se přihlašte jako správce.",
+    "success-message":"Odeslali jsme Vám zprávu obsahující zabezpečené URL. Kliknutím na něj získáte na omezenou dobu přístup ke správě nevyžádané pošty."
+  },
+  "generic":{
+    "back":"Zpět",
+    "cancel":"Zrušit",
+    "captcha-generate":"Generovat nový",
+    "check-account":"Zkontrolujte znovu svůj účet",
+    "choose-different-account":"Zvolte jiný účet",
+    "confirm":"Potvrdit",
+    "contact-admin":"Kontaktovat správce",
+    "copyright":"Powered by IceWarp",
+    "create-acc":"Vytvořit účet",
+    "done":"Hotovo",
+    "email":"E-mailová adresa",
+    "error":"Chyba",
+    "female":"Žena",
+    "find_out_more":"Více o produktu IceWarp server a IceWarp cloud [www.icewarp.cz](\/\/www.icewarp.cz)",
+    "fullscreen-enter":"Režim plné obrazovky",
+    "fullscreen-exit":"Opustit plnou obrazovku",
+    "have-account":"Již máte účet?",
+    "dont-have-account":"Ještě nemáte účet?",
+    "hide":"Schovat",
+    "male":"Male",
+    "next":"Další",
+    "not-you":"Nejste to Vy ?",
+    "password":"Heslo",
+    "password-confirm":"Potvrdit heslo",
+    "password-current":"Stávající heslo",
+    "password-new":"Nové heslo",
+    "password-policy":"Politika hesel",
+    "retry":"Zkusit znovu",
+    "save-password":"Uložit nové heslo",
+    "search":"Vyhledat",
+    "security-code":"Bezpečnostní kód",
+    "send":"Odeslat",
+    "show":"Zobrazit",
+    "sign-in":"Přihlásit",
+    "sign-with-another-acc":"Použít jiný účet",
+    "skip":"Přeskočit",
+    "success":"Úspěch",
+    "undefined":"Nedefinováno",
+    "understand":"OK, rozumím",
+    "undisclosed_participant":"Nezveřejněný účastník",
+    "username":"Uživatelské jméno"
+  },
+  "guest-verify":{
+    "heading":"Ověření hosta",
+    "subheading":"Prosím počkejte než bude Váš účet potvrzen.",
+    "success-message":"Váš účet byl potvrzen."
+  },
+  "interface":{
+    "label":"Rozhraní",
+    "desktop":"Pracovní stanice",
+    "tablet":"Tablet",
+    "phone":"Telefon"
+  },
+  "personal":{
+    "heading":"Osobní informace",
+    "nickname":"Přezdívka",
+    "birthday":"Datum narození",
+    "company":"Společnost",
+    "job":"Práce",
+    "profession":"Profese",
+    "mobile-phone":"Mobilní telefon",
+    "work-phone":"Pracovní telefon",
+    "home-phone":"Domácí telefon",
+    "im":"IM",
+    "gender":"Pohlaví",
+    "homepage":"Web"
+  },
+  "reset-password":{
+    "heading":"Reset hesla",
+    "success-message":"Heslo bylo změněno"
+  },
+  "set-password":{
+    "code_sent_to":"Ověřovací kód by odeslán na *%{to}*.",
+    "verification_code":"Ověřovací kód",
+    "heading":"Máme skoro hotovo!",
+    "submit":"Vytvořit účet",
+    "success-message":"Účet byl vytvořen"
+  },
+  "sign-in-generic":{
+    "heading":{
+      "webclient":"Přihlásit do WebClient rozhraní",
+      "webadmin":"Přihlásit do WebAdmin rozraní"
+    }
+  },
+  "sign-in-password":{
+    "forgot":"Zapomněli jste ?",
+    "remember":"Udržet mě přihlášeného"
+  },
+  "tc-actions":{
+    "heading":"Akce tlačítka plus",
+    "subheading":"Všechny akce v TeamChatu jednoduše vyvolávejte tlačítkem '+'."
+  },
+  "tc-check-email":{
+    "heading":"Zkontrolujte svůj email",
+    "subheading":"Ověřte svoji e-mailovou adresu. Pro vstup do TeamChatu a místnosti **%{room}**  pak stačí vloži kombinaci Vaší e-mailové adresy a hesla.",
+    "submit":"Běžte na přihlašovací stránku",
+    "success-message":"E-mailová adresa byla ověřena"
+  },
+  "tc-collaboration":{
+    "heading":"Spolupráce v týmech",
+    "subheading":"Vyměňujte si myšlenky, soubory, dokumenty. Diskutujte ve skupinách.Plánujte schůzky a pořádejte konference."
+  },
+  "tc-join":{
+    "heading":"Vstupte do našeho TeamChatu",
+    "subheading":"%{name} Vás pozval do TeamChat místnosti _%{room}_",
+    "submit":"Ověřte svoji e-mailovou adresu",
+    "success-message":"Vstoupil jste do místnosti %{room}",
+    "username":"Jméno",
+    "username-helper":"Nastavte si jméno pod kterým chcete vystupovat v aplikaci TeamChat",
+    "what-is-teamchat":"Co je TeamChat ?"
+  },
+  "tc-share":{
+    "heading":"Vše sdílejte jednodušeji.",
+    "subheading":"Přetáhněte jakýkoliv dokument nebo soubor a sdílejte jej s ostatními."
+  },
+  "title":{
+    "webadmin":"IceWarp WebAdmin",
+    "webclient":"IceWarp WebClient"
+  },
+  "touch-id":{
+    "heading":"Přihlašte se pomocí TouchID",
+    "use-password":"Použít heslo"
+  },
+  "validation":{
+    "alpha_chars":"Pole musí obsahovat alespoň %{amount} písmen||||Pole musí obsahovat alespoň %{amount} písmen",
+    "email":"Neplatná e-mailová adresa",
+    "empty":"Pole nesmí zůstat prázdné",
+    "length":"Délka musí být %{amount} znaků",
+    "min_length":"Minimální délka je %{amount} znaků",
+    "non_alpha_num_chars":"Pole musí obsahovat alespoň %{amount} znaků||||Pole musí obsahovat alespoň %{amount} znaků",
+    "numeric_chars":"Pole musí obsahovat alespoň %{amount} číslic||||Pole musí obsahovat alespoň %{amount} číslic",
+    "passwords-no-match":"Hesla se neshodují",
+    "upper_alpha_chars":"Pole musí obsahovat alespoň %{amount} velkých písmen||||Pole musí obsahovat alespoň %{amount} velkých písmen",
+    "user_alias":"Pole nesmí obsahovat uživatelské jméno"
+  },
+  "wm-join":{
+    "already-member":"Je již členem",
+    "audio-help":"Audio pomoc",
+    "heading":"Vstupte do našeho WebMeetingu",
+    "join-webmeeting":"Vstoupit do WebMeetingu",
+    "subheading":"WebMeeting vytvořený uživatelem %{name} je připraven",
+    "subheading-prepare":"Čekám na informace aplikace WebMeeting",
+    "success-message":"Vstoupil jste do místnosti %{room}",
+    "username":"Jméno",
+    "username-helper":"Nastavte jméno pod kterým si přejete vystupovat v aplikaci WebMeeting"
+  },
+  "wm":{
+    "error":"Nastala chyba v aplikaci WebMeeting",
+    "hang-up":"Odejít",
+    "hang-up-confirm":"Opravdu si přejete odejít z webmeetingu ?",
+    "maximize":"Maximalizovat okno",
+    "microphone-denied":"Přístup k mikrofonu byl odepřen",
+    "microphone-denied-helper":"Běheme aktivní konference nebudete moci mluvit.",
+    "no-microphone-detected":"Nebyl detekován žádný mikrofon",
+    "phone-number":"Telefonní číslo",
+    "restore":"Obnovit okno",
+    "screen-share-started":"Začalo sdílení obrazovky",
+    "screen-share-stopped":"Sdílení obrazovky ukončeno",
+    "unsupported":"Tento prohlížeč nepodporuje technologii WebRTC",
+    "unsupported-text":"[Více informací](%{link})",
+    "user-joined":"Vstoupil uživatel  **%{name}**",
+    "user-left":"Odešel uživatel **%{name}**",
+    "meeting-ended":"WebMeeting skončil.",
+    "welcome-message":"Vítejte do aplikace WebMeeting, **%{name}**! Skupinový chat je připraven."
+  }
+}

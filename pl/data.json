@@ -1,0 +1,313 @@
+{
+  "calendar":{
+    "day":{
+      "monday":"Poniedziałek",
+      "tuesday":"Wtorek",
+      "wednesday":"Środa",
+      "thursday":"Czwartek",
+      "friday":"Piątek",
+      "saturday":"Sobota",
+      "sunday":"Niedziela"
+    },
+    "day_short":{
+      "mon":"Pon.",
+      "tue":"Wt.",
+      "wed":"Śr.",
+      "thu":"Czw.",
+      "fri":"Pt.",
+      "sat":"Sob.",
+      "sun":"Niedz."
+    },
+    "month":{
+      "january":"Styczeń",
+      "february":"Luty",
+      "march":"Marzec",
+      "april":"Kwiecień",
+      "may":"Maj",
+      "june":"Czerwiec",
+      "july":"Lipiec",
+      "august":"Sierpień",
+      "september":"Wrzesień",
+      "october":"Październik",
+      "november":"Listopad",
+      "december":"Grudzień"
+    },
+    "next_month":"Następny miesiąc",
+    "previous_month":"Poprzedni miesiąc"
+  },
+  "change-password":{
+    "heading":"Zmień hasło",
+    "submit":"Zmień hasło",
+    "success-message":"Hasło zostało zmienione"
+  },
+  "choose-account":{
+    "heading":"Wybierz konto",
+    "remove":"Edytuj listę",
+    "remove-selected":"Usuń wybrane"
+  },
+  "confirm-personality":{
+    "heading":"Potwierdź osobę",
+    "subheading":"Proszę czekaj kiedy weryfikowane jest Twoje konto",
+    "success-message":"Twoje konto zostało zweryfikowane"
+  },
+  "contact-admin":{
+    "describe-problem":"Opisz swój problem",
+    "email-helper":"Adres na który ma być wysłana odpowiedź.",
+    "heading":"Skontaktuj się z administratorem",
+    "submit":"Wyślij wiadomość",
+    "success-message":"Admin został powiadomiony",
+    "tel":"Proszę podaj nam teraz Twój numer telefonu mobilnego"
+  },
+  "create-account":{
+    "alternative-email":"Alternatywny e-mail",
+    "domain":"Domena",
+    "full-name":"Pełna nazwa",
+    "heading":"Utwórz konto",
+    "last-step":"Ostatni krok",
+    "next-step":"Następny krok"
+  },
+  "error":{
+    "auth_login_invalid":"Nieprawidłowa nazwa użytkownika lub hasło",
+    "account_already_exists":"Konto już istnieje",
+    "account_alternative_email":"Konto nie ma alternatywnego adresu e-mail. Prosimy o kontakt z adminem",
+    "account_disabled":"Konto wyłączone",
+    "account_invalid":"Konto nieprawidłowe",
+    "account_does_not_exist":"Podane konto nie istnieje",
+    "account_missing_required_property":"Niektórych z wymaganych danych brak",
+    "account_no_password":"Brak hasła konta lub jest puste",
+    "account_no_username":"Brak nazwy konta lub jest puste",
+    "account_no_domain":"Brak domeny",
+    "account_password_policy":"Hasło nie spełnia wymagań polityki bezpieczeństwa haseł",
+    "account_signup_disabled":"Auto zapisywanie wyłączone",
+    "account_signup_disabled_ip":"Admin usuną autozapis z Twojego IP",
+    "auth_webadmin_session_not_found":"Nie znaleziono sesji Webadmin",
+    "captcha_confirmation":"Zły kod bezpieczeństwa",
+    "contact_support_no_admin_email":"Administrator nie ustawił adresu e-mail",
+    "db_auto_create":"Nie można automatycznie utworzyć bazy danych",
+    "db_create_sqlitefile":"Nie mozna utworzyć pliku SQLite DB",
+    "db_create_tables":"Nie można utworzyć tabel",
+    "db_invalid_statement":"Nieprawidłowy typ zestawienia",
+    "domain_invalid":"Nieprawidłowa domena",
+    "folder_get_list":"Nie można uzyskać listy folderó",
+    "folder_open":"Nie można otworzyć folderu",
+    "group_open":"Nie mozna otworzyć grupy",
+    "groupware_authenticate":"Brak możliwości logoawnia do GroupWare",
+    "groupware_db_connection":"GroupWarenie może połączyć się z bazą danych",
+    "groupware_timeout":"Limit czasu GroupWare",
+    "groupware_upgrade_task":"Serwis GroupWare jest w trakcie aktualizacji. proszę spróbować później.",
+    "guest_invalid_hash":"Błędna weryfikacja wartości funkcji skrótu",
+    "gw_init_error":"Błąd inicjalizacji",
+    "language_path_not_found":"Ścieżka języka nie znaleziona",
+    "language-not-found":"Nie znaleziono pliku języka",
+    "logdir_create":"Nie można utworzyć katalogu logowania",
+    "login_account_valid":"Niepoprawne konto",
+    "login_invalid":"Niepoprawny login dla użytkownika",
+    "login_invalid_keypair":"Nieudana weryfikacja RSA. Spróbuj ponownie.",
+    "login_ip_invalid":"Ograniczenie IP loginu",
+    "migration_in_progress":"Migracja konta w trakcie, proszę spróbować później",
+    "missing_request_params":"Brak paramertrów żądania",
+    "no_teamchat_folders":"Brak możliwości logowania z powodu braku folderu teamchat",
+    "password_not_changed":"Nowe hasło nie może być takie samo jak stare hasło",
+    "personality_confirmation_invalid_hashid":"Adres e-mail nie może zostać potwierdzony: Niepoprawna wartość funkcji skrótu",
+    "personality_confirmation_invalid_user":"Adres e-mail nie może zostać potwierdzony: Niepoprawny użytkownik",
+    "reset_disabled":"Wyłączony reset hasła",
+    "reset_password_invalid_hashid":"Niepoprawne hash ID",
+    "reset_password_no_hash":"Niepoprawne hash ID",
+    "reset_password_uid_file":"Plik UID nie istnieje",
+    "rsa_create_key_pair":"Nie można utworzyć pary kluczy RSA",
+    "session_cookie_mismatch":"Niezgodność cookie sesji",
+    "session_expired":"Sesja wygasła",
+    "session_ip_mismatch":"Niezgodność IP sesji",
+    "session_mismatch":"Niezgodność sesji",
+    "session_no_user":"Obiekt sesji użytkownika nie może zostać odzyskany",
+    "setting_file_corrupted":"Ustawienia serwera Webmail są uszkodzone. Proszę skontaktuj się z administratorem.",
+    "signup_verification_failed_sms":"Nie można wysłać weryfikacji SMS",
+    "signup_verification_failed_email":"Nie można wysłać weryfikacji email",
+    "signup_verification_not_initialized":"Weryfikacja nie została rozpoczęta",
+    "signup_verification_failed":"Weryfikacja nieudana",
+    "sso_login_not_allowed":"Niedozwolony login SSO",
+    "sso_unable_to_use":"Nie można użyć SSO",
+    "sso_error":"Błąd podczas użycia loginu SSO",
+    "storage_get_dom":"Nie można załadować pliku ustawień",
+    "unavailable":"Czasowo niedostępne",
+    "unspecified":"Serwer zwrócił błąd **%{error}**",
+    "user_settings_global":"Nie można załadować ustawień",
+    "wm_disabled":"WebClient jest wyłączony"
+  },
+  "forgot-password":{
+    "heading":"Zapomniałeś hasła",
+    "submit":"Wyślij mi instrukcje",
+    "success-message":"E-mail został wysłany na Twój alternatywny adres e-mail",
+    "success-message-guest":"E-mail został wysłany na Twój adres e-mail"
+  },
+  "gateway-login":{
+    "subheading":"Zaloguj się z kontem administratora aby zarządzać domenami i użytkownikami",
+    "success-message":"Wysłaliśmy Ci e-mail który zawiera bezpieczny link. Kliknięcie na link pozwoli Ci na dostęp do zarządzania spamem przez ograniczony czas."
+  },
+  "generic":{
+    "back":"Powrót",
+    "cancel":"Anuluj",
+    "captcha-generate":"Generuj nowe",
+    "check-account":"Sprawdź ponownie swoje konto",
+    "choose-different-account":"Wybież inne konto",
+    "confirm":"Potwierdź",
+    "contact-admin":"Skontaktuj się z adminem",
+    "copyright":"Powered by IceWarp",
+    "create-acc":"Utwórz konto",
+    "done":"Wykonane",
+    "email":"Adres E-mail",
+    "error":"Błąd",
+    "female":"Kobieta",
+    "find_out_more":"Aby dowiedzieć się więcej o serwerze IceWarp odwiedź [www.icewarp.com](\/\/www.icewarp.com)",
+    "fullscreen-enter":"Wprowadź pełen ekran",
+    "fullscreen-exit":"Wyjdź z pełnego ekranu",
+    "have-account":"Już posiadasz konto?",
+    "dont-have-account":"Nie posiadasz jeszcze konta?",
+    "hide":"Ukryj",
+    "male":"Mężczyzna",
+    "next":"Następny",
+    "not-you":"Nie Ty?",
+    "password":"Hasło",
+    "password-confirm":"Potwierdź hasło",
+    "password-current":"Bieżące hasło",
+    "password-new":"Nowe hasło",
+    "password-policy":"Polityka haseł",
+    "retry":"Odzyskaj",
+    "save-password":"Zapisz nowe hasło",
+    "search":"Szukaj",
+    "security-code":"Kod bezpieczeństwa",
+    "send":"Wyślij",
+    "show":"Pokaż",
+    "sign-in":"Zaloguj",
+    "sign-with-another-acc":"Zaloguj się z innym kontem",
+    "skip":"Pomiń",
+    "success":"Sukces",
+    "undefined":"Nie zdefiniowany",
+    "understand":"OK, rozumię",
+    "undisclosed_participant":"Niejawny uczestnik",
+    "username":"Nazwa użytkownika"
+  },
+  "guest-verify":{
+    "heading":"Weryfikacja gościa",
+    "subheading":"Proszę poczekaj, Twoje konto jest weryfikowane",
+    "success-message":"Twoje konto zostało zweryfikowane"
+  },
+  "interface":{
+    "label":"Interface",
+    "desktop":"Desktop",
+    "tablet":"Tablet",
+    "phone":"Telefon"
+  },
+  "personal":{
+    "heading":"Informacje osobiste",
+    "nickname":"Pseudonim",
+    "birthday":"Urodziny",
+    "company":"Firma",
+    "job":"Praca",
+    "profession":"Zawód",
+    "mobile-phone":"Telefon komórkowy",
+    "work-phone":"Telefon praca",
+    "home-phone":"Telefon dom",
+    "im":"IM",
+    "gender":"Płeć",
+    "homepage":"Strona domowa"
+  },
+  "reset-password":{
+    "heading":"Resetuj hasło",
+    "success-message":"Hasło zostało zmienione"
+  },
+  "set-password":{
+    "code_sent_to":"Kod weryfikacyjny został wysłany do *%{to}*.",
+    "verification_code":"Kod weryfikacyjny",
+    "heading":"Jesteś prawie gotowy!",
+    "submit":"Utwórz konto",
+    "success-message":"Konto zostało utworzone"
+  },
+  "sign-in-generic":{
+    "heading":{
+      "webclient":"Zaloguj doWebClient",
+      "webadmin":"Zaloguj do WebAdmin"
+    }
+  },
+  "sign-in-password":{
+    "forgot":"Zapomniałeś?",
+    "remember":"Nie wylogowuj mnie"
+  },
+  "tc-actions":{
+    "heading":"Działania przycisku Plus",
+    "subheading":"Ułatw zarządzanie wszystkimi działaniami w TeamChat korzystając z wielofunkcyjnego przycisku '+' ."
+  },
+  "tc-check-email":{
+    "heading":"Sprawdź swój e-mail",
+    "subheading":"Zweryfikuj swój adres email a następnie użyj **kombinacji swojego adresu e-mail oraz hasła aby dołączyć** i rozmawiaj z innymi użytkownikami w pokoju TeamChat **%{room}**",
+    "submit":"Przejdź do strony logowania",
+    "success-message":"E-mail został zweryfikowany"
+  },
+  "tc-collaboration":{
+    "heading":"Współpraca w zespołach",
+    "subheading":"Wymieniaj idee, pliki oraz inne dane i prowadź dyskusje w różnych grupach w czasie rzeczywistym."
+  },
+  "tc-join":{
+    "heading":"Dołącz do naszego TeamChat",
+    "subheading":"%{name} zaprosił Cię do pokoju TeamChat _%{room}_",
+    "submit":"Weryfikuj mój adres e-mail",
+    "success-message":"Dołączyłeś do %{room}",
+    "username":"Nazwa",
+    "username-helper":"Dodaj nazwę która pojawi się w TeamChat",
+    "what-is-teamchat":"Co to jest TeamChat?"
+  },
+  "tc-share":{
+    "heading":"Łatwo współdziel wszystko",
+    "subheading":"Przeciągnij & upuść jakiekolwiek dokumenty lub nośniki - współdziel i edytuj je bezpośrednio w app."
+  },
+  "title":{
+    "webadmin":"IceWarp WebAdmin",
+    "webclient":"IceWarp WebClient"
+  },
+  "touch-id":{
+    "heading":"Zapisz się z touch ID",
+    "use-password":"Użyj zamiast tego hasła"
+  },
+  "validation":{
+    "alpha_chars":"Pole musi zawierać przynajmniej %{ilość} liter||||Pole musi zawierać przynajmniej %{ilość} liter",
+    "email":"Niepoprawny e-mail",
+    "empty":"Pole nie może być puste",
+    "length":"Długosć musi zawierać %{ilość} znaków",
+    "min_length":"Minimalna długość to %{ilość} znaków",
+    "non_alpha_num_chars":"Pole musić zawierać przynajmniej %{ilość} znaków nie alfanumerycznych||||Pole musi zawierać przynajmniej %{ilość} znaków nie alfanumerycznych",
+    "numeric_chars":"Pole musi zawierać przynajmniej %{ilość} cyfr||||Pole musi zawierać przynajmniej %{ilość} cyfr",
+    "passwords-no-match":"Hasło nie zgadza się",
+    "upper_alpha_chars":"Pole musi zawierać przynajmniej %{ilość} dużych liter||||Pole musi zawierać przynajmniej %{ilość} dużych liter",
+    "user_alias":"Pole nie może zawierać nazwy użytkownika"
+  },
+  "wm-join":{
+    "already-member":"Już jest członkiem",
+    "audio-help":"Pomoc audio",
+    "heading":"Dołącz do naszego WebMeeting'u",
+    "join-webmeeting":"Dołącz do naszego WebMeeting'u",
+    "subheading":"WebMeeting utworzony przez %{nazwa} jest gotowy",
+    "subheading-prepare":"Oczekiwanie na info WebMeeting'u",
+    "success-message":"Dołączyłeś do %{pokój}",
+    "username":"Nazwa",
+    "username-helper":"Dodaj nazwę która będzie widoczna w WebMeeting"
+  },
+  "wm":{
+    "error":"Błąd podczas webmeeting'u",
+    "hang-up":"Odłóż słuchawkę",
+    "hang-up-confirm":"Czy jesteś pewien, że chcesz opuścić ten webmeeting?",
+    "maximize":"Powiększ okno",
+    "microphone-denied":"Dostęp do mikrofonu jest zabroniony",
+    "microphone-denied-helper":"Nie będziesz mógł rozmawiać podczas tego WebMeeting'u",
+    "no-microphone-detected":"Nie wykryto mikrofonu",
+    "phone-number":"Numer telefonu",
+    "restore":"Przywróć okno",
+    "screen-share-started":"Rozpoczęte współdzielenie ekranu",
+    "screen-share-stopped":"Zatrzymane współdzielenie ekranu",
+    "unsupported":"Ta przeglądarka nie obsługuje WebRTC",
+    "unsupported-text":"[Więcej informacji](%{link})",
+    "user-joined":"Użytkownik **%{nazwa}** dołączył do meeting'u",
+    "user-left":"Użytkownik **%{nazwa}** opuścił meeting",
+    "meeting-ended":"WebMeeting zakończył się.",
+    "welcome-message":"Witamy w WebMeeting, **%{nazwa}**! Chat grupowy jest gotowy."
+  }
+}
