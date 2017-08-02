@@ -1,313 +1,313 @@
 {
-	"calendar": {
-		"day": {
-			"monday": "Monday",
-			"tuesday": "Tuesday",
-			"wednesday": "Wednesday",
-			"thursday": "Thursday",
-			"friday": "Friday",
-			"saturday": "Saturday",
-			"sunday": "Sunday"
-		},
-		"day_short": {
-			"mon": "Mon",
-			"tue": "Tue",
-			"wed": "Wed",
-			"thu": "Thu",
-			"fri": "Fri",
-			"sat": "Sat",
-			"sun": "Sun"
-		},
-		"month": {
-			"january": "January",
-			"february": "February",
-			"march": "March",
-			"april": "April",
-			"may": "May",
-			"june": "June",
-			"july": "July",
-			"august": "August",
-			"september": "September",
-			"october": "October",
-			"november": "November",
-			"december": "December"
-		},
-		"next_month": "Next month",
-		"previous_month": "Previous month"
-	},
-	"change-password": {
-		"heading": "Change password",
-		"submit": "Change password",
-		"success-message": "Password has been changed"
-	},
-	"choose-account": {
-		"heading": "Choose an account",
-		"remove": "Edit the list",
-		"remove-selected": "Remove selected"
-	},
-	"confirm-personality": {
-		"heading": "Confirm personality",
-		"subheading": "Please wait while your account is being verified",
-		"success-message": "Your account has been verified"
-	},
-	"contact-admin": {
-		"describe-problem": "Describe your problem",
-		"email-helper": "The address which will be used to reply you.",
-		"heading": "Contact administrator",
-		"submit": "Send message",
-		"success-message": "Admin has been notified",
-		"tel": "Please leave us here your mobile phone number"
-	},
-	"create-account": {
-		"alternative-email": "Alternative email",
-		"domain": "Domain",
-		"full-name": "Full name",
-		"heading": "Create an account",
-		"last-step": "Last step",
-		"next-step": "Next step"
-	},
-	"error": {
-		"auth_login_invalid": "Invalid login username or password",
-		"account_already_exists": "Account already exists",
-		"account_alternative_email": "Account has no alternate email address. Please contact admin",
-		"account_disabled": "Account disabled",
-		"account_invalid": "Account invalid",
-		"account_does_not_exist": "Specified account doesn't exist",
-		"account_missing_required_property": "Some of the required properties is missing",
-		"account_no_password": "Account password is missing or empty",
-		"account_no_username": "Account username is missing or empty",
-		"account_no_domain": "Domain is missing",
-		"account_password_policy": "Password does not match the password policy",
-		"account_signup_disabled": "Self sign-up disabled",
-		"account_signup_disabled_ip": "Admin has disabled signup from your IP",
-		"auth_webadmin_session_not_found": "Webadmin session not found",
-		"captcha_confirmation": "Wrong security code",
-		"contact_support_no_admin_email": "Administrator has not set up an email address",
-		"db_auto_create": "Cannot auto create the database",
-		"db_create_sqlitefile": "Cannot create SQLite DB file",
-		"db_create_tables": "Cannot create tables",
-		"db_invalid_statement": "Invalid statement type",
-		"domain_invalid": "Invalid domain",
-		"folder_get_list": "Cannot get the list of folders",
-		"folder_open": "Cannot open folder",
-		"group_open": "Cannot open group",
-		"groupware_authenticate": "Login to GroupWare failed",
-		"groupware_db_connection": "GroupWare is unable to connect to database",
-		"groupware_timeout": "GroupWare timeout",
-		"groupware_upgrade_task": "GroupWare service update procedure is running. Please try again later.",
-		"guest_invalid_hash": "Wrong verification hash",
-		"gw_init_error": "GroupWare initialization error",
-		"language_path_not_found": "Language path not found",
-		"language-not-found": "Language file not found",
-		"logdir_create": "Cannot create logging directory",
-		"login_account_valid": "Invalid account",
-		"login_invalid": "Invalid login for user",
-		"login_invalid_keypair": "RSA validation failed. Try again.",
-		"login_ip_invalid": "Login IP restriction",
-		"migration_in_progress": "Migration of account is in progress, please try again later",
-		"missing_request_params": "Missing request parameters",
-		"no_teamchat_folders": "Unable to login due to missing teamchat folder",
-		"password_not_changed": "New password cannot be the same as old password",
-		"personality_confirmation_invalid_hashid": "Email address cannot be confirmed: Invalid Hash",
-		"personality_confirmation_invalid_user": "Email address cannot be confirmed: Invalid User",
-		"reset_disabled": "Reset password has been disabled",
-		"reset_password_invalid_hashid": "Invalid hash ID",
-		"reset_password_no_hash": "Invalid hash ID",
-		"reset_password_uid_file": "UID file doesn't exist",
-		"rsa_create_key_pair": "Unable to create RSA key pair",
-		"session_cookie_mismatch": "Session cookie mismatch",
-		"session_expired": "Session expired",
-		"session_ip_mismatch": "Session IP mismatch",
-		"session_mismatch": "Session mismatch",
-		"session_no_user": "Session user object cannot be retrieved",
-		"setting_file_corrupted": "Webmail server settings are corrupted. Please, contact the administrator.",
-		"signup_verification_failed_sms": "Unable to send SMS verification",
-		"signup_verification_failed_email": "Unable to send email verification",
-		"signup_verification_not_initialized": "Verification not initialized",
-		"signup_verification_failed": "Verification failed",
-		"sso_login_not_allowed": "SSO login not allowed",
-		"sso_unable_to_use": "Unable to use SSO",
-		"sso_error": "Error when trying to use SSO Login",
-		"storage_get_dom": "Unable to load setting file",
-		"unavailable": "Temporary unavailable",
-		"unspecified": "Server returned an error **%{error}**",
-		"user_settings_global": "Unable to load settings",
-		"wm_disabled": "WebClient is disabled"
-	},
-	"forgot-password": {
-		"heading": "Forgot password",
-		"submit": "Send me instructions",
-		"success-message": "Email has been sent to your alternative email address",
-		"success-message-guest": "Email has been sent to your email address"
-	},
-	"gateway-login": {
-		"subheading": "Sign in with an administrator account to manage domains and users",
-		"success-message": "We have sent you an e-mail which contains a secure link. Clicking the link will let you access spam management for a limited time."
-	},
-	"generic": {
-		"back": "Back",
-		"cancel": "Cancel",
-		"captcha-generate": "Generate new",
-		"check-account": "Check your account again",
-		"choose-different-account": "Choose different account",
-		"confirm": "Confirm",
-		"contact-admin": "Contact admin",
-		"copyright": "Powered by IceWarp",
-		"create-acc": "Create an account",
-		"done": "Done",
-		"email": "Email address",
-		"error": "Error",
-		"female": "Female",
-		"find_out_more": "To find out more about IceWarp server visit [www.icewarp.com](//www.icewarp.com)",
-		"fullscreen-enter": "Enter fullscreen",
-		"fullscreen-exit": "Exit fullscreen",
-		"have-account": "Already have an account?",
-		"dont-have-account": "Don't have an account yet?",
-		"hide": "Hide",
-		"male": "Male",
-		"next": "Next",
-		"not-you": "Not you?",
-		"password": "Password",
-		"password-confirm": "Confirm password",
-		"password-current": "Current password",
-		"password-new": "New password",
-		"password-policy": "Password policy",
-		"retry": "Retry",
-		"save-password": "Save new password",
-		"search": "Search",
-		"security-code": "Security code",
-		"send": "Send",
-		"show": "Show",
-		"sign-in": "Sign in",
-		"sign-with-another-acc": "Sign in with another account",
-		"skip": "Skip",
-		"success": "Success",
-		"undefined": "Undefined",
-		"understand": "OK, I understand",
-		"undisclosed_participant": "Undisclosed participant",
-		"username": "Username"
-	},
-	"guest-verify": {
-		"heading": "Guest verification",
-		"subheading": "Please wait while your account is being verified",
-		"success-message": "Your account has been verified"
-	},
-	"interface": {
-		"label": "Interface",
-		"desktop": "Desktop",
-		"tablet": "Tablet",
-		"phone": "Phone"
-	},
-	"personal": {
-		"heading": "Personal Information",
-		"nickname": "Nickname",
-		"birthday": "Birthday",
-		"company": "Company",
-		"job": "Job",
-		"profession": "Profession",
-		"mobile-phone": "Mobile Phone",
-		"work-phone": "Work Phone",
-		"home-phone": "Home Phone",
-		"im": "IM",
-		"gender": "Gender",
-		"homepage": "Homepage"
-	},
-	"reset-password": {
-		"heading": "Reset password",
-		"success-message": "Password has been changed"
-	},
-	"set-password": {
-		"code_sent_to": "Verification code has been sent to *%{to}*.",
-		"verification_code": "Verification code",
-		"heading": "You're almost done!",
-		"submit": "Create an account",
-		"success-message": "Account has been created"
-	},
-	"sign-in-generic": {
-		"heading": {
-			"webclient": "Sign in to WebClient",
-			"webadmin": "Sign in to WebAdmin"
-		}
-	},
-	"sign-in-password": {
-		"forgot": "Forgot?",
-		"remember": "Keep me signed in"
-	},
-	"tc-actions": {
-		"heading": "Plus button actions",
-		"subheading": "Make it easy to manage all TeamChat actions using the multi action '+' button."
-	},
-	"tc-check-email": {
-		"heading": "Check your email",
-		"subheading": "Verify your email address and then use the **combination of your email address and password to join in** and chat with other users in TeamChat room **%{room}**",
-		"submit": "Go to sign in page",
-		"success-message": "Email has been verified"
-	},
-	"tc-collaboration": {
-		"heading": "Collaboration in teams",
-		"subheading": "Exchange ideas, files or other data and discuss in different groups in real-time."
-	},
-	"tc-join": {
-		"heading": "Join our TeamChat",
-		"subheading": "%{name} invited you to join TeamChat room _%{room}_",
-		"submit": "Verify my email address",
-		"success-message": "You have joined %{room}",
-		"username": "Name",
-		"username-helper": "Add name as it will appear in TeamChat",
-		"what-is-teamchat": "What is TeamChat?"
-	},
-	"tc-share": {
-		"heading": "Share everything easily",
-		"subheading": "Drag & drop any documents or media - share and edit them right within the app."
-	},
-	"title": {
-		"webadmin": "IceWarp WebAdmin",
-		"webclient": "IceWarp WebClient"
-	},
-	"touch-id": {
-		"heading": "Sign in with touch ID",
-		"use-password": "Use password instead"
-	},
-	"validation": {
-		"alpha_chars": "Field has to contain at least %{amount} letter||||Field has to contain at least %{amount} letters",
-		"email": "Invalid Email",
-		"empty": "Field cannot be empty",
-		"length": "Length must be %{amount} characters",
-		"min_length": "Minimum length is %{amount} characters",
-		"non_alpha_num_chars": "Field has to contain at least %{amount} non-alphanumeric character||||Field has to contain at least %{amount} non-alphanumeric characters",
-		"numeric_chars": "Field has to contain at least %{amount} number||||Field has to contain at least %{amount} numbers",
-		"passwords-no-match": "Passwords do not match",
-		"upper_alpha_chars": "Field has to contain at least %{amount} uppercase letter||||Field has to contain at least %{amount} uppercase letters",
-		"user_alias": "Field cannot contain username"
-	},
-	"wm-join": {
-		"already-member": "Already a member",
-		"audio-help": "Audio help",
-		"heading": "Join our WebMeeting",
-		"join-webmeeting": "Join WebMeeting",
-		"subheading": "WebMeeting created by %{name} is ready",
-		"subheading-prepare": "Waiting for WebMeeting info",
-		"success-message": "You have joined %{room}",
-		"username": "Name",
-		"username-helper": "Add name as it will appear in WebMeeting"
-	},
-	"wm": {
-		"error": "An error during webmeeting",
-		"hang-up": "Hang up",
-		"hang-up-confirm": "Are you sure you want to leave this webmeeting?",
-		"maximize": "Maximize window",
-		"microphone-denied": "Access to is microphone denied",
-		"microphone-denied-helper": "You will not be able to talk during this WebMeeting",
-		"no-microphone-detected": "No microphone detected",
-		"phone-number": "Phone number",
-		"restore": "Restore window",
-		"screen-share-started": "Screen sharing started",
-		"screen-share-stopped": "Screen sharing stopped",
-		"unsupported": "This browser does not support WebRTC",
-		"unsupported-text": "[More information](%{link})",
-		"user-joined": "User **%{name}** has joined the meeting",
-		"user-left": "User **%{name}** has left the meeting",
-		"meeting-ended": "WebMeeting has ended.",
-		"welcome-message": "Welcome to WebMeeting, **%{name}**! Group chat is ready."
-	}
+    "calendar": {
+        "day": {
+            "monday": "Pazartesi",
+            "tuesday": "Salı",
+            "wednesday": "Çarşamba",
+            "thursday": "Perşembe",
+            "friday": "Cuma",
+            "saturday": "Cumartesi",
+            "sunday": "Pazar"
+        },
+        "day_short": {
+            "mon": "Pzt",
+            "tue": "Sal",
+            "wed": "Çar",
+            "thu": "Per",
+            "fri": "Cum",
+            "sat": "Cmt",
+            "sun": "Paz"
+        },
+        "month": {
+            "january": "Ocak",
+            "february": "Şubat",
+            "march": "Mart",
+            "april": "Nisan",
+            "may": "Mayıs",
+            "june": "Haziran",
+            "july": "Temmuz",
+            "august": "Ağustos",
+            "september": "Eylül",
+            "october": "Ekim",
+            "november": "Kasım",
+            "december": "Aralık"
+        },
+        "next_month": "Gelecek ay",
+        "previous_month": "Geçtiğimiz ay"
+    },
+    "change-password": {
+        "heading": "Şifre değiştir",
+        "submit": "Şifre değiştir",
+        "success-message": "Şifre değiştirildi"
+    },
+    "choose-account": {
+        "heading": "Bir hesap seçin",
+        "remove": "Listeyi düzenle",
+        "remove-selected": "Seçileni kaldır"
+    },
+    "confirm-personality": {
+        "heading": "Kişiliği onayla",
+        "subheading": "Lütfen hesabınız doğrulanırken bekleyin.",
+        "success-message": "Hesabınız doğrulandı"
+    },
+    "contact-admin": {
+        "describe-problem": "Sorunu açıkla",
+        "email-helper": "Size cevap vermek için kullanılacak adres.",
+        "heading": "Yöneticiyle iletişime geç",
+        "submit": "Mesaj gönder",
+        "success-message": "Yönetici bilgilendirildi",
+        "tel": "Lütfen bize cep telefonu numaranızda bırakın"
+    },
+    "create-account": {
+        "alternative-email": "Alternatif e-posta",
+        "domain": "Alan adı",
+        "full-name": "Ad Soyad",
+        "heading": "Hesap oluştur",
+        "last-step": "Son adım",
+        "next-step": "Sonraki adım"
+    },
+    "error": {
+        "auth_login_invalid": "Geçersiz kullanıcı adı veya şifre",
+        "account_already_exists": "Bu hesap zaten mevcut",
+        "account_alternative_email": "Hesabın başka bir e-posta adresi yok. Lütfen admin ile iletişime geçin",
+        "account_disabled": "Hesap devre dışı",
+        "account_invalid": "Hesap geçersiz",
+        "account_does_not_exist": "Belirtilen hesap mevcut değil",
+        "account_missing_required_property": "Gerekli özelliklerden bazıları eksik",
+        "account_no_password": "Hesap şifresi eksik veya boş",
+        "account_no_username": "Hesap kullanıcı adı eksik veya boş",
+        "account_no_domain": "Alan adı eksik",
+        "account_password_policy": "Şifre, şifre ilkesine uymuyor",
+        "account_signup_disabled": "Kayıt olma kapalı.",
+        "account_signup_disabled_ip": "Yönetici IP'den kayıt işlemini devre dışı bıraktı",
+        "auth_webadmin_session_not_found": "Webadmin oturumu bulunamadı",
+        "captcha_confirmation": "Yanlış güvenlik kodu",
+        "contact_support_no_admin_email": "Yönetici bir e-posta adresi oluşturmadı",
+        "db_auto_create": "Veritabanını otomatik oluşturamıyorum",
+        "db_create_sqlitefile": "SQLite DB dosyası oluşturulamıyor",
+        "db_create_tables": "Tablolar oluşturulamıyor",
+        "db_invalid_statement": "Geçersiz deyim türü",
+        "domain_invalid": "Geçersiz alan adı",
+        "folder_get_list": "Klasör listesi alınamıyor",
+        "folder_open": "Klasör açılamıyor",
+        "group_open": "Grup açılamıyor",
+        "groupware_authenticate": "GroupWare'e giriş başarısız",
+        "groupware_db_connection": "GroupWare veritabanına bağlanamıyor",
+        "groupware_timeout": "GroupWare zamanaşımı",
+        "groupware_upgrade_task": "GroupWare servis güncelleme prosedürü çalışıyor. Lütfen daha sonra tekrar deneyiniz.",
+        "guest_invalid_hash": "Hash yanlış doğrulama",
+        "gw_init_error": "GroupWare başlatma hatası",
+        "language_path_not_found": "Dil yolu bulunamadı",
+        "language-not-found": "Dil dosyası bulunamadı",
+        "logdir_create": "Log dizini oluşturulamıyor",
+        "login_account_valid": "Geçersiz hesap",
+        "login_invalid": "Kullanıcı için geçersiz giriş",
+        "login_invalid_keypair": "RSA doğrulaması başarısız oldu. Tekrar deneyin.",
+        "login_ip_invalid": "Giriş IP kısıtlaması",
+        "migration_in_progress": "Hesap taşıma işlemi devam ediyor, lütfen daha sonra tekrar deneyin.",
+        "missing_request_params": "Eksik istek parametreleri",
+        "no_teamchat_folders": "Eksik TeamChat klasörü nedeniyle giriş yapılamıyor",
+        "password_not_changed": "Yeni şifre eski şifre ile aynı olamaz",
+        "personality_confirmation_invalid_hashid": "E-posta adresi doğrulanamadı: Geçersiz Hash",
+        "personality_confirmation_invalid_user": "E-posta adresi doğrulanamadı: Geçersiz Kullanıcı",
+        "reset_disabled": "Sıfırlama şifresi devre dışı",
+        "reset_password_invalid_hashid": "Geçersiz hash ID",
+        "reset_password_no_hash": "Geçersiz hash ID",
+        "reset_password_uid_file": "UID dosyası mevcut değil",
+        "rsa_create_key_pair": "RSA anahtar çifti oluşturulamadı",
+        "session_cookie_mismatch": "Oturum çerezi uyumsuzluğu",
+        "session_expired": "Oturum süresi doldu",
+        "session_ip_mismatch": "Oturum IP uyumsuzluğu",
+        "session_mismatch": "Oturum uyumsuzluğu",
+        "session_no_user": "Oturum kullanıcı nesnesi alınamıyor",
+        "setting_file_corrupted": "Webmail sunucusu ayarları bozuk. Lütfen, yöneticiye başvurun.",
+        "signup_verification_failed_sms": "SMS doğrulama gönderilemiyor",
+        "signup_verification_failed_email": "E-posta doğrulama gönderilemiyor",
+        "signup_verification_not_initialized": "Doğrulama başlatılmadı",
+        "signup_verification_failed": "Doğrulama başarısız oldu",
+        "sso_login_not_allowed": "SSO girişine izin verilmiyor",
+        "sso_unable_to_use": "SSO kullanılamıyor",
+        "sso_error": "SSO Girişini kullanmaya çalışırken hata oluştu",
+        "storage_get_dom": "Ayar dosyası yüklenemiyor",
+        "unavailable": "Geçici olarak kullanılamıyor",
+        "unspecified": "Sunucu bir hata döndürdü **%{error}**",
+        "user_settings_global": "Ayarlar yüklenemiyor",
+        "wm_disabled": "WebClient devredışı"
+    },
+    "forgot-password": {
+        "heading": "Şifremi unuttum",
+        "submit": "Bana talimatları gönder",
+        "success-message": "Alternatif e-posta adresinize e-posta gönderildi",
+        "success-message-guest": "E-posta adresinize gönderildi"
+    },
+    "gateway-login": {
+        "subheading": "Alanları ve kullanıcıları yönetmek için bir yönetici hesabıyla oturum açın",
+        "success-message": "Size güvenli bir bağlantı içeren bir e-posta gönderdik. Bağlantıyı tıklamak, spam yönetimine sınırlı bir süre erişmenize izin verecektir."
+    },
+    "generic": {
+        "back": "Geri",
+        "cancel": "İptal",
+        "captcha-generate": "Yeni oluştur",
+        "check-account": "Hesabınızı tekrar kontrol edin",
+        "choose-different-account": "Farklı hesap seç",
+        "confirm": "Onayla",
+        "contact-admin": "Yöneticiyle iletişime geç",
+        "copyright": "IceWarp tarafından desteklenmektedir",
+        "create-acc": "Hesap oluştur",
+        "done": "Tamam",
+        "email": "E-posta adresi",
+        "error": "Hata",
+        "female": "Kadın",
+        "find_out_more": "IceWarp sunucusu hakkında daha fazla bilgi için [www.icewarp.com](\/\/www.icewarp.com) ziyaret edin.",
+        "fullscreen-enter": "Tam ekran yap",
+        "fullscreen-exit": "Tam ekrandan çık",
+        "have-account": "Zaten hesabınız var mı?",
+        "dont-have-account": "Hala bir hesabınız yok mu?",
+        "hide": "Gizle",
+        "male": "Erkek",
+        "next": "Sonraki",
+        "not-you": "Sen değilmisin?",
+        "password": "Şifre",
+        "password-confirm": "Şifreyi onayla",
+        "password-current": "Şimdiki şifre",
+        "password-new": "Yeni Şifre",
+        "password-policy": "Şifre politikası",
+        "retry": "Tekrar dene",
+        "save-password": "Yeni şifreyi kaydet",
+        "search": "Arama",
+        "security-code": "Güvenlik Kodu",
+        "send": "Gönder",
+        "show": "Göster",
+        "sign-in": "Oturum aç",
+        "sign-with-another-acc": "Başka bir hesapta oturum açın",
+        "skip": "Atla",
+        "success": "Başarılı",
+        "undefined": "Tanımlanmamış",
+        "understand": "Tamam, anladım.",
+        "undisclosed_participant": "Gizli katılımcı",
+        "username": "Kullanıcı adı"
+    },
+    "guest-verify": {
+        "heading": "Konuk doğrulaması",
+        "subheading": "Lütfen hesabınız doğrulanırken bekleyin.",
+        "success-message": "Hesabınız doğrulandı"
+    },
+    "interface": {
+        "label": "Arayüz",
+        "desktop": "Masaüstü",
+        "tablet": "Tablet",
+        "phone": "Telefon"
+    },
+    "personal": {
+        "heading": "Kişisel Bilgiler",
+        "nickname": "Nickname",
+        "birthday": "Doğum günü",
+        "company": "Şirket",
+        "job": "İş",
+        "profession": "Meslek",
+        "mobile-phone": "Cep telefonu",
+        "work-phone": "İş Telefonu",
+        "home-phone": "Ev Telefonu",
+        "im": "IM",
+        "gender": "Cinsiyet",
+        "homepage": "Anasayfa"
+    },
+    "reset-password": {
+        "heading": "Şifre resetle",
+        "success-message": "Şifre değiştirildi."
+    },
+    "set-password": {
+        "code_sent_to": "*%{to}* adresine doğrulama kodu gönderildi.",
+        "verification_code": "Doğrulama kodu",
+        "heading": "Neredeyse bitti!",
+        "submit": "Hesap oluştur",
+        "success-message": "Hesap oluşturuldu"
+    },
+    "sign-in-generic": {
+        "heading": {
+            "webclient": "WebClient'da oturum açın",
+            "webadmin": "WebAdmin'de oturum açın"
+        }
+    },
+    "sign-in-password": {
+        "forgot": "Unuttum?",
+        "remember": "Oturumumu açık tut."
+    },
+    "tc-actions": {
+        "heading": "'+' düğme eylemleri",
+        "subheading": "Çok Etki İşlemi '+' düğmesini kullanarak tüm TeamChat işlemlerini yönetmeyi kolaylaştırın."
+    },
+    "tc-check-email": {
+        "heading": "E-postanı kontrol et",
+        "subheading": "E-posta adresinizi doğrulayın ve **%{room}** TeamChat odasında ** katılmak ve diğer kullanıcılarla sohbet etmek için e-posta adresinizin ve şifrenizin ** kullanın",
+        "submit": "Oturum açma sayfasına git",
+        "success-message": "E-posta doğrulandı"
+    },
+    "tc-collaboration": {
+        "heading": "Takım halinde işbirliği",
+        "subheading": "Fikirleri, dosyaları veya diğer verileri değiş tokuş edin ve gerçek zamanlı olarak farklı gruplar halinde tartışın."
+    },
+    "tc-join": {
+        "heading": "TeamChat'e Katılın",
+        "subheading": "%{name} sizi TeamChat _%{room}_ odasına davet etti.",
+        "submit": "E-posta adresimi doğrulama",
+        "success-message": "%{room} odasına katıldınız.",
+        "username": "İsim",
+        "username-helper": "TeamChat görüneceği şekilde adınızı girin",
+        "what-is-teamchat": "TeamChat nedir?"
+    },
+    "tc-share": {
+        "heading": "Her şeyi kolayca paylaş",
+        "subheading": "Herhangi bir belgeyi veya medyayı sürükleyip bırakın - bunları uygulamada doğru paylaşın ve düzenleyin."
+    },
+    "title": {
+        "webadmin": "IceWarp WebAdmin",
+        "webclient": "IceWarp WebClient"
+    },
+    "touch-id": {
+        "heading": "Parmakizi ile oturum açın",
+        "use-password": "Bunun yerine şifreyi kullanın"
+    },
+    "validation": {
+        "alpha_chars": "Alanın en az %{amount} harf içermesi gerekir.||||Alanın en az %{amount} harf içermesi gerekiyor.",
+        "email": "Geçersiz e posta",
+        "empty": "Alan boş olamaz",
+        "length": "Uzunluk %{amount} karakter olmalıdır.",
+        "min_length": "Minimum uzunluk %{amount} karakterdir.",
+        "non_alpha_num_chars": "Field has to contain at least %{amount} non-alphanumeric character||||Field has to contain at least %{amount} non-alphanumeric characters",
+        "numeric_chars": "Field has to contain at least %{amount} number||||Field has to contain at least %{amount} numbers",
+        "passwords-no-match": "Şifreler eşleşmedi",
+        "upper_alpha_chars": "Field has to contain at least %{amount} uppercase letter||||Field has to contain at least %{amount} uppercase letters",
+        "user_alias": "Alan kullanıcı adı içeremez"
+    },
+    "wm-join": {
+        "already-member": "Zaten bir üye misiniz",
+        "audio-help": "Sesli yardım",
+        "heading": "WebMeeting'e Katıl",
+        "join-webmeeting": "WebMeeting'e katıl",
+        "subheading": "%{name} tarafından oluşturulan WebMeeting hazır.",
+        "subheading-prepare": "WebMeeting bilgisi bekleniyor",
+        "success-message": "%{room} odasına katıldınız.",
+        "username": "İsim",
+        "username-helper": "WebMeeting görünecek şekilde ad ekleyin."
+    },
+    "wm": {
+        "error": "WebMeeting sırasında bir hata",
+        "hang-up": "Telefonu kapat",
+        "hang-up-confirm": "Bu web mesajını bırakmak istediğinizden emin misiniz?",
+        "maximize": "Pencereyi büyüt",
+        "microphone-denied": "Mikrofon erişimi engellendi",
+        "microphone-denied-helper": "Bu WebMeeting sırasında konuşamazsın",
+        "no-microphone-detected": "Mikrofon algılanmadı",
+        "phone-number": "Telefon numarası",
+        "restore": "Pencereyi geri yükle",
+        "screen-share-started": "Ekran paylaşımı başladı",
+        "screen-share-stopped": "Ekran paylaşımı durdu",
+        "unsupported": "Bu tarayıcı WebRTC'yi desteklemez",
+        "unsupported-text": "[Daha fazla bilgi](%{link})",
+        "user-joined": "**%{name}** kullanıcı toplantıya katıldı.",
+        "user-left": "**%{name}** kullanıcı toplantıyı terk etti",
+        "meeting-ended": "WebMeeting sona erdi.",
+        "welcome-message": "**% {name} ** WebMeeting'e hoş geldiniz! Grup sohbeti hazır."
+    }
 }
