@@ -67,10 +67,36 @@
     "next-step":"Następny krok"
   },
   "error":{
+    "invalid_login":"Incorrect username or password. Please try again.",
+    "expired":"Expired session",
+    "connection":"Unable to reach server. Please check your internet connection or contact administrator.",
+    "servererror":"Unable to access this service. Please try again later or contact administrator.",
+    "overloaded":"The server is currently overloaded. Please try again later or contact administrator.",
+    "wc_disabled":"WebClient is disabled.",
+    "invalid_rsa":"Unable to create RSA password.",
+    "no_db":"Database Connection Error",
+    "no_data":"No Data Available",
+    "access_error":"Unable to access mailbox folder, please contact administrator.",
+    "ip_mismatch":"Your IP has changed, you will be logged out. To prevent this problem in the future, please access WebClient via HTTPS connection.",
+    "sso_login_not_allowed":"Niedozwolony login SSO",
+    "sso_unable_to_use":"Nie można użyć SSO",
+    "sso_error":"Error when trying to use SSO login",
     "auth_login_invalid":"Nieprawidłowa nazwa użytkownika lub hasło",
     "account_already_exists":"Konto już istnieje",
     "account_alternative_email":"Konto nie ma alternatywnego adresu e-mail. Prosimy o kontakt z adminem",
-    "account_disabled":"Konto wyłączone",
+    "account_disabled_1":"Nie udało się zalogować z powodu ograniczeń IP",
+    "account_disabled_2":"Błąd logowania - konto zostało zablokowane.",
+    "account_disabled_3":"Błąd logowania - hasło wygasło.",
+    "account_disabled_4":"Błąd logowania - konto wygasło",
+    "account_disabled_5":"Nie udało się zalogować z powodu trybu dostępu SMTP",
+    "account_disabled_6":"Nie udało się zalogować z powodu trybu dostępu POP\/IMAP",
+    "account_disabled_7":"Błąd logowania - konto dostępne tylko w trybie IMAP",
+    "account_disabled_8":"Błąd logowania - konto dostępne tylko w trybie POP3",
+    "account_disabled_9":"Błąd logowania - konto nie ma uprawnień do korzystania z WebClient",
+    "account_disabled_10":"Nie udało się zalogować z powodu trybu dostępu",
+    "account_disabled_11":"Błąd logowania - logowanie do tej domeny zostało zablokowane",
+    "account_disabled_12":"Błąd logowania - domena wygała",
+    "account_disabled_13":"Błąd logowania - problem z licencją",
     "account_invalid":"Konto nieprawidłowe",
     "account_does_not_exist":"Podane konto nie istnieje",
     "account_missing_required_property":"Niektórych z wymaganych danych brak",
@@ -80,6 +106,8 @@
     "account_password_policy":"Hasło nie spełnia wymagań polityki bezpieczeństwa haseł",
     "account_signup_disabled":"Auto zapisywanie wyłączone",
     "account_signup_disabled_ip":"Admin usuną autozapis z Twojego IP",
+    "auth_digest_expired":"Login expired, please login again",
+    "auth_two_factor_invalid":"Błędny kod weryfikacyjny",
     "auth_webadmin_session_not_found":"Nie znaleziono sesji Webadmin",
     "captcha_confirmation":"Zły kod bezpieczeństwa",
     "contact_support_no_admin_email":"Administrator nie ustawił adresu e-mail",
@@ -125,9 +153,6 @@
     "signup_verification_failed_email":"Nie można wysłać weryfikacji email",
     "signup_verification_not_initialized":"Weryfikacja nie została rozpoczęta",
     "signup_verification_failed":"Weryfikacja nieudana",
-    "sso_login_not_allowed":"Niedozwolony login SSO",
-    "sso_unable_to_use":"Nie można użyć SSO",
-    "sso_error":"Błąd podczas użycia loginu SSO",
     "storage_get_dom":"Nie można załadować pliku ustawień",
     "unavailable":"Czasowo niedostępne",
     "unspecified":"Serwer zwrócił błąd **%{error}**",
@@ -149,7 +174,7 @@
     "cancel":"Anuluj",
     "captcha-generate":"Generuj nowe",
     "check-account":"Sprawdź ponownie swoje konto",
-    "choose-different-account":"Wybież inne konto",
+    "choose-different-account":"Wybierz inne konto",
     "confirm":"Potwierdź",
     "contact-admin":"Skontaktuj się z adminem",
     "copyright":"Powered by IceWarp",
@@ -183,8 +208,8 @@
     "skip":"Pomiń",
     "success":"Sukces",
     "undefined":"Nie zdefiniowany",
-    "understand":"OK, rozumię",
-    "undisclosed_participant":"Niejawny uczestnik",
+    "understand":"OK, rozumiem",
+    "undisclosed_participant":"Nieznany uczestnik",
     "username":"Nazwa użytkownika"
   },
   "guest-verify":{
@@ -225,7 +250,7 @@
   },
   "sign-in-generic":{
     "heading":{
-      "webclient":"Zaloguj doWebClient",
+      "webclient":"Zaloguj się do WebClient",
       "webadmin":"Zaloguj do WebAdmin"
     }
   },
@@ -268,6 +293,12 @@
     "heading":"Zapisz się z touch ID",
     "use-password":"Użyj zamiast tego hasła"
   },
+  "two_step":{
+    "verification_code":"Kod weryfikacyjny",
+    "heading":"weryfikacja dwuetapowa",
+    "subheading":"Wprowadź proszę 6-cio cyfrowy kod z IceWarp Authenticator app",
+    "subheading-phone":"Wprowadź proszę 6-cio cyfrowy kod wysłany na Twój telefon z numerem kończącym się  -%{phone}"
+  },
   "validation":{
     "alpha_chars":"Pole musi zawierać przynajmniej %{ilość} liter||||Pole musi zawierać przynajmniej %{ilość} liter",
     "email":"Niepoprawny e-mail",
@@ -292,6 +323,7 @@
     "username-helper":"Dodaj nazwę która będzie widoczna w WebMeeting"
   },
   "wm":{
+    "device-error":"Błąd urządzenia",
     "error":"Błąd podczas webmeeting'u",
     "hang-up":"Odłóż słuchawkę",
     "hang-up-confirm":"Czy jesteś pewien, że chcesz opuścić ten webmeeting?",

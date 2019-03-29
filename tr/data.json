@@ -1,313 +1,345 @@
 {
-    "calendar": {
-        "day": {
-            "monday": "Pazartesi",
-            "tuesday": "Salı",
-            "wednesday": "Çarşamba",
-            "thursday": "Perşembe",
-            "friday": "Cuma",
-            "saturday": "Cumartesi",
-            "sunday": "Pazar"
-        },
-        "day_short": {
-            "mon": "Pzt",
-            "tue": "Sal",
-            "wed": "Çar",
-            "thu": "Per",
-            "fri": "Cum",
-            "sat": "Cmt",
-            "sun": "Paz"
-        },
-        "month": {
-            "january": "Ocak",
-            "february": "Şubat",
-            "march": "Mart",
-            "april": "Nisan",
-            "may": "Mayıs",
-            "june": "Haziran",
-            "july": "Temmuz",
-            "august": "Ağustos",
-            "september": "Eylül",
-            "october": "Ekim",
-            "november": "Kasım",
-            "december": "Aralık"
-        },
-        "next_month": "Gelecek ay",
-        "previous_month": "Geçtiğimiz ay"
+  "calendar":{
+    "day":{
+      "monday":"Pazartesi",
+      "tuesday":"Salı",
+      "wednesday":"Çarşamba",
+      "thursday":"Perşembe",
+      "friday":"Cuma",
+      "saturday":"Cumartesi",
+      "sunday":"Pazar"
     },
-    "change-password": {
-        "heading": "Şifre değiştir",
-        "submit": "Şifre değiştir",
-        "success-message": "Şifre değiştirildi"
+    "day_short":{
+      "mon":"Pzt",
+      "tue":"Sal",
+      "wed":"Çar",
+      "thu":"Per",
+      "fri":"Cum",
+      "sat":"Cmt",
+      "sun":"Paz"
     },
-    "choose-account": {
-        "heading": "Bir hesap seçin",
-        "remove": "Listeyi düzenle",
-        "remove-selected": "Seçileni kaldır"
+    "month":{
+      "january":"Ocak",
+      "february":"Şubat",
+      "march":"Mart",
+      "april":"Nisan",
+      "may":"Mayıs",
+      "june":"Haziran",
+      "july":"Temmuz",
+      "august":"Ağustos",
+      "september":"Eylül",
+      "october":"Ekim",
+      "november":"Kasım",
+      "december":"Aralık"
     },
-    "confirm-personality": {
-        "heading": "Kişiliği onayla",
-        "subheading": "Lütfen hesabınız doğrulanırken bekleyin.",
-        "success-message": "Hesabınız doğrulandı"
-    },
-    "contact-admin": {
-        "describe-problem": "Sorunu açıkla",
-        "email-helper": "Size cevap vermek için kullanılacak adres.",
-        "heading": "Yöneticiyle iletişime geç",
-        "submit": "Mesaj gönder",
-        "success-message": "Yönetici bilgilendirildi",
-        "tel": "Lütfen bize cep telefonu numaranızda bırakın"
-    },
-    "create-account": {
-        "alternative-email": "Alternatif e-posta",
-        "domain": "Alan adı",
-        "full-name": "Ad Soyad",
-        "heading": "Hesap oluştur",
-        "last-step": "Son adım",
-        "next-step": "Sonraki adım"
-    },
-    "error": {
-        "auth_login_invalid": "Geçersiz kullanıcı adı veya şifre",
-        "account_already_exists": "Bu hesap zaten mevcut",
-        "account_alternative_email": "Hesabın başka bir e-posta adresi yok. Lütfen admin ile iletişime geçin",
-        "account_disabled": "Hesap devre dışı",
-        "account_invalid": "Hesap geçersiz",
-        "account_does_not_exist": "Belirtilen hesap mevcut değil",
-        "account_missing_required_property": "Gerekli özelliklerden bazıları eksik",
-        "account_no_password": "Hesap şifresi eksik veya boş",
-        "account_no_username": "Hesap kullanıcı adı eksik veya boş",
-        "account_no_domain": "Alan adı eksik",
-        "account_password_policy": "Şifre, şifre ilkesine uymuyor",
-        "account_signup_disabled": "Kayıt olma kapalı.",
-        "account_signup_disabled_ip": "Yönetici IP'den kayıt işlemini devre dışı bıraktı",
-        "auth_webadmin_session_not_found": "Webadmin oturumu bulunamadı",
-        "captcha_confirmation": "Yanlış güvenlik kodu",
-        "contact_support_no_admin_email": "Yönetici bir e-posta adresi oluşturmadı",
-        "db_auto_create": "Veritabanını otomatik oluşturamıyorum",
-        "db_create_sqlitefile": "SQLite DB dosyası oluşturulamıyor",
-        "db_create_tables": "Tablolar oluşturulamıyor",
-        "db_invalid_statement": "Geçersiz deyim türü",
-        "domain_invalid": "Geçersiz alan adı",
-        "folder_get_list": "Klasör listesi alınamıyor",
-        "folder_open": "Klasör açılamıyor",
-        "group_open": "Grup açılamıyor",
-        "groupware_authenticate": "GroupWare'e giriş başarısız",
-        "groupware_db_connection": "GroupWare veritabanına bağlanamıyor",
-        "groupware_timeout": "GroupWare zamanaşımı",
-        "groupware_upgrade_task": "GroupWare servis güncelleme prosedürü çalışıyor. Lütfen daha sonra tekrar deneyiniz.",
-        "guest_invalid_hash": "Hash yanlış doğrulama",
-        "gw_init_error": "GroupWare başlatma hatası",
-        "language_path_not_found": "Dil yolu bulunamadı",
-        "language-not-found": "Dil dosyası bulunamadı",
-        "logdir_create": "Log dizini oluşturulamıyor",
-        "login_account_valid": "Geçersiz hesap",
-        "login_invalid": "Kullanıcı için geçersiz giriş",
-        "login_invalid_keypair": "RSA doğrulaması başarısız oldu. Tekrar deneyin.",
-        "login_ip_invalid": "Giriş IP kısıtlaması",
-        "migration_in_progress": "Hesap taşıma işlemi devam ediyor, lütfen daha sonra tekrar deneyin.",
-        "missing_request_params": "Eksik istek parametreleri",
-        "no_teamchat_folders": "Eksik TeamChat klasörü nedeniyle giriş yapılamıyor",
-        "password_not_changed": "Yeni şifre eski şifre ile aynı olamaz",
-        "personality_confirmation_invalid_hashid": "E-posta adresi doğrulanamadı: Geçersiz Hash",
-        "personality_confirmation_invalid_user": "E-posta adresi doğrulanamadı: Geçersiz Kullanıcı",
-        "reset_disabled": "Sıfırlama şifresi devre dışı",
-        "reset_password_invalid_hashid": "Geçersiz hash ID",
-        "reset_password_no_hash": "Geçersiz hash ID",
-        "reset_password_uid_file": "UID dosyası mevcut değil",
-        "rsa_create_key_pair": "RSA anahtar çifti oluşturulamadı",
-        "session_cookie_mismatch": "Oturum çerezi uyumsuzluğu",
-        "session_expired": "Oturum süresi doldu",
-        "session_ip_mismatch": "Oturum IP uyumsuzluğu",
-        "session_mismatch": "Oturum uyumsuzluğu",
-        "session_no_user": "Oturum kullanıcı nesnesi alınamıyor",
-        "setting_file_corrupted": "Webmail sunucusu ayarları bozuk. Lütfen, yöneticiye başvurun.",
-        "signup_verification_failed_sms": "SMS doğrulama gönderilemiyor",
-        "signup_verification_failed_email": "E-posta doğrulama gönderilemiyor",
-        "signup_verification_not_initialized": "Doğrulama başlatılmadı",
-        "signup_verification_failed": "Doğrulama başarısız oldu",
-        "sso_login_not_allowed": "SSO girişine izin verilmiyor",
-        "sso_unable_to_use": "SSO kullanılamıyor",
-        "sso_error": "SSO Girişini kullanmaya çalışırken hata oluştu",
-        "storage_get_dom": "Ayar dosyası yüklenemiyor",
-        "unavailable": "Geçici olarak kullanılamıyor",
-        "unspecified": "Sunucu bir hata döndürdü **%{error}**",
-        "user_settings_global": "Ayarlar yüklenemiyor",
-        "wm_disabled": "WebClient devredışı"
-    },
-    "forgot-password": {
-        "heading": "Şifremi unuttum",
-        "submit": "Bana talimatları gönder",
-        "success-message": "Alternatif e-posta adresinize e-posta gönderildi",
-        "success-message-guest": "E-posta adresinize gönderildi"
-    },
-    "gateway-login": {
-        "subheading": "Alanları ve kullanıcıları yönetmek için bir yönetici hesabıyla oturum açın",
-        "success-message": "Size güvenli bir bağlantı içeren bir e-posta gönderdik. Bağlantıyı tıklamak, spam yönetimine sınırlı bir süre erişmenize izin verecektir."
-    },
-    "generic": {
-        "back": "Geri",
-        "cancel": "İptal",
-        "captcha-generate": "Yeni oluştur",
-        "check-account": "Hesabınızı tekrar kontrol edin",
-        "choose-different-account": "Farklı hesap seç",
-        "confirm": "Onayla",
-        "contact-admin": "Yöneticiyle iletişime geç",
-        "copyright": "IceWarp tarafından desteklenmektedir",
-        "create-acc": "Hesap oluştur",
-        "done": "Tamam",
-        "email": "E-posta adresi",
-        "error": "Hata",
-        "female": "Kadın",
-        "find_out_more": "IceWarp sunucusu hakkında daha fazla bilgi için [www.icewarp.com](\/\/www.icewarp.com) ziyaret edin.",
-        "fullscreen-enter": "Tam ekran yap",
-        "fullscreen-exit": "Tam ekrandan çık",
-        "have-account": "Zaten hesabınız var mı?",
-        "dont-have-account": "Hala bir hesabınız yok mu?",
-        "hide": "Gizle",
-        "male": "Erkek",
-        "next": "Sonraki",
-        "not-you": "Sen değilmisin?",
-        "password": "Şifre",
-        "password-confirm": "Şifreyi onayla",
-        "password-current": "Şimdiki şifre",
-        "password-new": "Yeni Şifre",
-        "password-policy": "Şifre politikası",
-        "retry": "Tekrar dene",
-        "save-password": "Yeni şifreyi kaydet",
-        "search": "Arama",
-        "security-code": "Güvenlik Kodu",
-        "send": "Gönder",
-        "show": "Göster",
-        "sign-in": "Oturum aç",
-        "sign-with-another-acc": "Başka bir hesapta oturum açın",
-        "skip": "Atla",
-        "success": "Başarılı",
-        "undefined": "Tanımlanmamış",
-        "understand": "Tamam, anladım.",
-        "undisclosed_participant": "Gizli katılımcı",
-        "username": "Kullanıcı adı"
-    },
-    "guest-verify": {
-        "heading": "Konuk doğrulaması",
-        "subheading": "Lütfen hesabınız doğrulanırken bekleyin.",
-        "success-message": "Hesabınız doğrulandı"
-    },
-    "interface": {
-        "label": "Arayüz",
-        "desktop": "Masaüstü",
-        "tablet": "Tablet",
-        "phone": "Telefon"
-    },
-    "personal": {
-        "heading": "Kişisel Bilgiler",
-        "nickname": "Nickname",
-        "birthday": "Doğum günü",
-        "company": "Şirket",
-        "job": "İş",
-        "profession": "Meslek",
-        "mobile-phone": "Cep telefonu",
-        "work-phone": "İş Telefonu",
-        "home-phone": "Ev Telefonu",
-        "im": "IM",
-        "gender": "Cinsiyet",
-        "homepage": "Anasayfa"
-    },
-    "reset-password": {
-        "heading": "Şifre resetle",
-        "success-message": "Şifre değiştirildi."
-    },
-    "set-password": {
-        "code_sent_to": "*%{to}* adresine doğrulama kodu gönderildi.",
-        "verification_code": "Doğrulama kodu",
-        "heading": "Neredeyse bitti!",
-        "submit": "Hesap oluştur",
-        "success-message": "Hesap oluşturuldu"
-    },
-    "sign-in-generic": {
-        "heading": {
-            "webclient": "WebClient'da oturum açın",
-            "webadmin": "WebAdmin'de oturum açın"
-        }
-    },
-    "sign-in-password": {
-        "forgot": "Unuttum?",
-        "remember": "Oturumumu açık tut."
-    },
-    "tc-actions": {
-        "heading": "'+' düğme eylemleri",
-        "subheading": "Çok Etki İşlemi '+' düğmesini kullanarak tüm TeamChat işlemlerini yönetmeyi kolaylaştırın."
-    },
-    "tc-check-email": {
-        "heading": "E-postanı kontrol et",
-        "subheading": "E-posta adresinizi doğrulayın ve **%{room}** TeamChat odasında ** katılmak ve diğer kullanıcılarla sohbet etmek için e-posta adresinizin ve şifrenizin ** kullanın",
-        "submit": "Oturum açma sayfasına git",
-        "success-message": "E-posta doğrulandı"
-    },
-    "tc-collaboration": {
-        "heading": "Takım halinde işbirliği",
-        "subheading": "Fikirleri, dosyaları veya diğer verileri değiş tokuş edin ve gerçek zamanlı olarak farklı gruplar halinde tartışın."
-    },
-    "tc-join": {
-        "heading": "TeamChat'e Katılın",
-        "subheading": "%{name} sizi TeamChat _%{room}_ odasına davet etti.",
-        "submit": "E-posta adresimi doğrulama",
-        "success-message": "%{room} odasına katıldınız.",
-        "username": "İsim",
-        "username-helper": "TeamChat görüneceği şekilde adınızı girin",
-        "what-is-teamchat": "TeamChat nedir?"
-    },
-    "tc-share": {
-        "heading": "Her şeyi kolayca paylaş",
-        "subheading": "Herhangi bir belgeyi veya medyayı sürükleyip bırakın - bunları uygulamada doğru paylaşın ve düzenleyin."
-    },
-    "title": {
-        "webadmin": "IceWarp WebAdmin",
-        "webclient": "IceWarp WebClient"
-    },
-    "touch-id": {
-        "heading": "Parmakizi ile oturum açın",
-        "use-password": "Bunun yerine şifreyi kullanın"
-    },
-    "validation": {
-        "alpha_chars": "Alanın en az %{amount} harf içermesi gerekir.||||Alanın en az %{amount} harf içermesi gerekiyor.",
-        "email": "Geçersiz e posta",
-        "empty": "Alan boş olamaz",
-        "length": "Uzunluk %{amount} karakter olmalıdır.",
-        "min_length": "Minimum uzunluk %{amount} karakterdir.",
-        "non_alpha_num_chars": "Field has to contain at least %{amount} non-alphanumeric character||||Field has to contain at least %{amount} non-alphanumeric characters",
-        "numeric_chars": "Field has to contain at least %{amount} number||||Field has to contain at least %{amount} numbers",
-        "passwords-no-match": "Şifreler eşleşmedi",
-        "upper_alpha_chars": "Field has to contain at least %{amount} uppercase letter||||Field has to contain at least %{amount} uppercase letters",
-        "user_alias": "Alan kullanıcı adı içeremez"
-    },
-    "wm-join": {
-        "already-member": "Zaten bir üye misiniz",
-        "audio-help": "Sesli yardım",
-        "heading": "WebMeeting'e Katıl",
-        "join-webmeeting": "WebMeeting'e katıl",
-        "subheading": "%{name} tarafından oluşturulan WebMeeting hazır.",
-        "subheading-prepare": "WebMeeting bilgisi bekleniyor",
-        "success-message": "%{room} odasına katıldınız.",
-        "username": "İsim",
-        "username-helper": "WebMeeting görünecek şekilde ad ekleyin."
-    },
-    "wm": {
-        "error": "WebMeeting sırasında bir hata",
-        "hang-up": "Telefonu kapat",
-        "hang-up-confirm": "Bu web mesajını bırakmak istediğinizden emin misiniz?",
-        "maximize": "Pencereyi büyüt",
-        "microphone-denied": "Mikrofon erişimi engellendi",
-        "microphone-denied-helper": "Bu WebMeeting sırasında konuşamazsın",
-        "no-microphone-detected": "Mikrofon algılanmadı",
-        "phone-number": "Telefon numarası",
-        "restore": "Pencereyi geri yükle",
-        "screen-share-started": "Ekran paylaşımı başladı",
-        "screen-share-stopped": "Ekran paylaşımı durdu",
-        "unsupported": "Bu tarayıcı WebRTC'yi desteklemez",
-        "unsupported-text": "[Daha fazla bilgi](%{link})",
-        "user-joined": "**%{name}** kullanıcı toplantıya katıldı.",
-        "user-left": "**%{name}** kullanıcı toplantıyı terk etti",
-        "meeting-ended": "WebMeeting sona erdi.",
-        "welcome-message": "**% {name} ** WebMeeting'e hoş geldiniz! Grup sohbeti hazır."
+    "next_month":"Gelecek ay",
+    "previous_month":"Geçtiğimiz ay"
+  },
+  "change-password":{
+    "heading":"Parola değiştir",
+    "submit":"Parola değiştir",
+    "success-message":"Parola değiştirildi"
+  },
+  "choose-account":{
+    "heading":"Bir hesap seçin",
+    "remove":"Listeyi düzenle",
+    "remove-selected":"Seçileni kaldır"
+  },
+  "confirm-personality":{
+    "heading":"Confirm personality",
+    "subheading":"Lütfen hesabınız doğrulanırken bekleyin",
+    "success-message":"Hesabınız doğrulandı"
+  },
+  "contact-admin":{
+    "describe-problem":"Sorunu tanımla",
+    "email-helper":"Size cevap vermek için kullanılacak adres.",
+    "heading":"Yönetici ile iletişime geçin",
+    "submit":"Mesaj gönder",
+    "success-message":"Yönetici bilgilendirildi",
+    "tel":"Lütfen cep telefonu numaranızı buraya bize bırakın."
+  },
+  "create-account":{
+    "alternative-email":"Alternatif e-posta",
+    "domain":"Domain",
+    "full-name":"Ad Soyad",
+    "heading":"Hesap oluştur",
+    "last-step":"Son adım",
+    "next-step":"Sonraki adım"
+  },
+  "error":{
+    "invalid_login":"Kullanıcı adı ya da parola yanlış. Lütfen tekrar deneyin.",
+    "expired":"Süresi geçmiş oturum",
+    "connection":"Sunucuya erişilemiyor. Lütfen internet bağlantınızı kontrol edin veya yöneticinize başvurun.",
+    "servererror":"Bu hizmete erişilemiyor. Lütfen daha sonra tekrar deneyin veya yöneticinize başvurun.",
+    "overloaded":"Sunucu şu anda aşırı yüklenmiş. Lütfen daha sonra tekrar deneyin veya yöneticinize başvurun.",
+    "wc_disabled":"WebClient devre dışı.",
+    "invalid_rsa":"RSA şifresi oluşturulamıyor.",
+    "no_db":"Veritabanı Bağlantı Hatası",
+    "no_data":"Veri Yok",
+    "access_error":"Posta kutusu klasörüne erişilemiyor, lütfen yöneticiye başvurun.",
+    "ip_mismatch":"IP'niz değişti, çıkış yapacaksınız. Gelecekte bu sorunu önlemek için, lütfen HTTPS bağlantısı üzerinden WebClient'e erişin.",
+    "sso_login_not_allowed":"SSO girişine izin verilmiyor",
+    "sso_unable_to_use":"SSO kullanılamıyor",
+    "sso_error":"Error when trying to use SSO login",
+    "auth_login_invalid":"Geçersiz giriş kullanıcı adı veya parola",
+    "account_already_exists":"Bu hesap zaten mevcut",
+    "account_alternative_email":"Hesabın alternatif bir e-posta adresi yok. Lütfen yönetici ile iletişime geçin",
+    "account_disabled_1":"IP Kısıtlaması nedeniyle giriş yapılamadı",
+    "account_disabled_2":"Hesap devre dışı bırakıldığı için giriş yapılamadı",
+    "account_disabled_3":"Parola süresi dolduğundan giriş yapılamadı",
+    "account_disabled_4":"Hesap süresi dolduğundan giriş yapılamadı",
+    "account_disabled_5":"SMTP erişim modu nedeniyle giriş yapılamadı",
+    "account_disabled_6":"POP\/IMAP erişim modu nedeniyle giriş yapılamadı",
+    "account_disabled_7":"Hesap yalnızca IMAP olduğundan giriş yapılamadı",
+    "account_disabled_8":"Hesap yalnızca POP3 olduğundan giriş yapılamadı",
+    "account_disabled_9":"Hesabın WebClient'e erişim hakkı olmadığı için giriş yapılamadı",
+    "account_disabled_10":"Erişim modu nedeniyle giriş yapılamadı",
+    "account_disabled_11":"Bu etki alanına giriş devre dışı bırakıldığından giriş yapılamadı",
+    "account_disabled_12":"Etki alanı süresi dolduğundan giriş yapılamadı",
+    "account_disabled_13":"Lisans nedeniyle giriş yapılamadı",
+    "account_invalid":"Hesap geçersiz",
+    "account_does_not_exist":"Belirtilen hesap mevcut değil",
+    "account_missing_required_property":"Gerekli özelliklerden bazıları eksik",
+    "account_no_password":"Hesap parolası eksik veya boş",
+    "account_no_username":"Hesap kullanıcı adı eksik veya boş",
+    "account_no_domain":"Etki alanı eksik",
+    "account_password_policy":"Parola, parola politikasına uymuyor",
+    "account_signup_disabled":"Kendi kendine kayıt devre dışı bırakıldı",
+    "account_signup_disabled_ip":"Yönetici IP’nizden kaydolmayı devre dışı bıraktı",
+    "auth_digest_expired":"Giriş süresi doldu, lütfen tekrar giriş yapın",
+    "auth_two_factor_invalid":"Geçersiz doğrulama kodu",
+    "auth_webadmin_session_not_found":"Webadmin oturumu bulunamadı",
+    "captcha_confirmation":"Yanlış güvenlik kodu",
+    "contact_support_no_admin_email":"Yönetici bir e-posta adresi belirlemedi",
+    "db_auto_create":"Otomatik veritabanı oluşturulamıyor",
+    "db_create_sqlitefile":"SQLite DB dosyası oluşturulamıyor",
+    "db_create_tables":"Tablolar oluşturulamıyor",
+    "db_invalid_statement":"Geçersiz ifade türü",
+    "domain_invalid":"Geçersiz etki alanı",
+    "folder_get_list":"Klasörlerin listesi alınamıyor",
+    "folder_open":"Klasör açılamıyor",
+    "group_open":"Grup açılamıyor",
+    "groupware_authenticate":"GroupWare'e giriş başarısız oldu",
+    "groupware_db_connection":"GroupWare veritabanına bağlanamıyor",
+    "groupware_timeout":"GroupWare zaman aşımı",
+    "groupware_upgrade_task":"GroupWare servis güncelleme prosedürü çalışıyor. Lütfen daha sonra tekrar deneyiniz.",
+    "guest_invalid_hash":"Yanlış doğrulama hash",
+    "gw_init_error":"GroupWare başlatma hatası",
+    "language_path_not_found":"Dil yolu bulunamadı",
+    "language-not-found":"Dil dosyası bulunamadı",
+    "logdir_create":"Log dizini oluşturulamıyor",
+    "login_account_valid":"Geçersiz hesap",
+    "login_invalid":"Kullanıcı için geçersiz giriş",
+    "login_invalid_keypair":"RSA doğrulaması başarısız oldu. Tekrar deneyin.",
+    "login_ip_invalid":"Giriş IP kısıtlaması",
+    "migration_in_progress":"Hesabın taşınması devam ediyor, lütfen daha sonra tekrar deneyin",
+    "missing_request_params":"Eksik istek parametreleri",
+    "no_teamchat_folders":"Eksik teamchat klasörü nedeniyle oturum açılamıyor",
+    "password_not_changed":"Yeni parola eski parola ile aynı olamaz",
+    "personality_confirmation_invalid_hashid":"E-posta adresi onaylanamıyor: Geçersiz Hash",
+    "personality_confirmation_invalid_user":"E-posta adresi onaylanamıyor: Geçersiz Kullanıcı",
+    "reset_disabled":"Parolayı sıfırla devre dışı bırakıldı",
+    "reset_password_invalid_hashid":"Geçersiz hash kimliği",
+    "reset_password_no_hash":"Geçersiz hash kimliği",
+    "reset_password_uid_file":"UID dosyası mevcut değil",
+    "rsa_create_key_pair":"Unable to create RSA key pair",
+    "session_cookie_mismatch":"Oturum çerezi uyumsuzluğu",
+    "session_expired":"Oturum süresi doldu",
+    "session_ip_mismatch":"Oturum IP uyuşmazlığı",
+    "session_mismatch":"Oturum uyuşmazlığı",
+    "session_no_user":"Oturum kullanıcısı nesnesi alınamıyor",
+    "setting_file_corrupted":"Webmail sunucusu ayarları bozuk. Lütfen yönetici ile iletişime geçin.",
+    "signup_verification_failed_sms":"SMS doğrulaması gönderilemiyor",
+    "signup_verification_failed_email":"E-posta doğrulaması gönderilemiyor",
+    "signup_verification_not_initialized":"Doğrulama başlatılmadı",
+    "signup_verification_failed":"Doğrulama başarısız oldu",
+    "storage_get_dom":"Ayar dosyası yüklenemedi",
+    "unavailable":"Geçici olarak kullanım dışı",
+    "unspecified":"Sunucu bir hata döndürdü **%{error}**",
+    "user_settings_global":"Ayarlar yüklenemiyor",
+    "wm_disabled":"WebClient devre dışı"
+  },
+  "forgot-password":{
+    "heading":"Parolamı unuttum",
+    "submit":"Bana talimatları gönder",
+    "success-message":"E-posta, alternatif e-posta adresine gönderildi",
+    "success-message-guest":"E-posta e-posta adresine gönderildi"
+  },
+  "gateway-login":{
+    "subheading":"Etki alanlarını ve kullanıcıları yönetmek için yönetici hesabıyla oturum açın",
+    "success-message":"Size güvenli bir bağlantı içeren bir e-posta gönderdik. Bağlantıya tıkladığınızda, spam yönetimine sınırlı bir süre boyunca erişebilirsiniz."
+  },
+  "generic":{
+    "back":"Geri",
+    "cancel":"İptal",
+    "captcha-generate":"Yeni oluştur",
+    "check-account":"Hesabınızı tekrar kontrol edin",
+    "choose-different-account":"Farklı hesap seçin",
+    "confirm":"Onaylamak",
+    "contact-admin":"İletişim yöneticisi",
+    "copyright":"IceWarp tarafından desteklenmektedir",
+    "create-acc":"Hesap oluştur",
+    "done":"Tamam",
+    "email":"E-posta adresi",
+    "error":"Hata",
+    "female":"Bayan",
+    "find_out_more":"IceWarp sunucu hakkında daha fazla bilgi için [www.icewarp.com](\/\/www.icewarp.com) ziyaret edin.",
+    "fullscreen-enter":"Tam ekran yap",
+    "fullscreen-exit":"Tam ekrandan çık",
+    "have-account":"Zaten bir hesabınız var mı?",
+    "dont-have-account":"Henüz bir hesabınız yok mu?",
+    "hide":"Gizle",
+    "male":"Erkek",
+    "next":"Sonraki",
+    "not-you":"Sen değil misin?",
+    "password":"Parola",
+    "password-confirm":"Parolayı Onayla",
+    "password-current":"Geçerli parola",
+    "password-new":"Yeni parola",
+    "password-policy":"Parola politikası",
+    "retry":"Tekrar dene",
+    "save-password":"Yeni parolayı kaydet",
+    "search":"Arama",
+    "security-code":"Güvenlik Kodu",
+    "send":"Gönder",
+    "show":"Göster",
+    "sign-in":"Oturum Aç",
+    "sign-with-another-acc":"Başka bir hesapla oturum açın",
+    "skip":"Skip",
+    "success":"Başarıılı",
+    "undefined":"Tanımsız",
+    "understand":"Tamam, anlıyorum.",
+    "undisclosed_participant":"Açıklanmayan katılımcı",
+    "username":"Kullanıcı Adı"
+  },
+  "guest-verify":{
+    "heading":"Misafir doğrulama",
+    "subheading":"Hesabınız doğrulanırken lütfen bekleyin",
+    "success-message":"Hesabınız doğrulandı"
+  },
+  "interface":{
+    "label":"Arayüz",
+    "desktop":"Masaüstü",
+    "tablet":"Tablet",
+    "phone":"Telefon"
+  },
+  "personal":{
+    "heading":"Kişisel bilgiler",
+    "nickname":"Takma ad",
+    "birthday":"Doğum günü",
+    "company":"Şirket",
+    "job":"İş",
+    "profession":"Meslek",
+    "mobile-phone":"Cep telefonu",
+    "work-phone":"Iş telefonu",
+    "home-phone":"Ev telefonu",
+    "im":"IM",
+    "gender":"Cinsiyet",
+    "homepage":"Ana sayfa"
+  },
+  "reset-password":{
+    "heading":"Parolayı Sıfırla",
+    "success-message":"Parola değiştirildi"
+  },
+  "set-password":{
+    "code_sent_to":"Doğrulama kodu *%{to}* adresine gönderildi.",
+    "verification_code":"Doğrulama kodu",
+    "heading":"Neredeyse bitti!",
+    "submit":"Hesap oluştur",
+    "success-message":"Hesap oluşturuldu"
+  },
+  "sign-in-generic":{
+    "heading":{
+      "webclient":"WebClient'te oturum açın",
+      "webadmin":"WebAdmin'e giriş yapın"
     }
+  },
+  "sign-in-password":{
+    "forgot":"Unuttum?",
+    "remember":"Oturumumu açık tut"
+  },
+  "tc-actions":{
+    "heading":"Ayrıca düğme eylemleri",
+    "subheading":"Çoklu eylem '+' düğmesini kullanarak tüm TeamChat eylemlerini yönetmeyi kolaylaştırın."
+  },
+  "tc-check-email":{
+    "heading":"E-postanızı kontrol edin",
+    "subheading":"E-posta adresinizi doğrulayın ve ardından **e-posta adresiniz ve parolanızın kombinasyonu** ve **%{room}** TeamChat odasında diğer kullanıcılarla sohbet edin ",
+    "submit":"Giriş sayfasına git",
+    "success-message":"E-posta doğrulandı"
+  },
+  "tc-collaboration":{
+    "heading":"Takımlarda Işbirliği",
+    "subheading":"Fikirleri, dosyaları veya diğer verileri paylaşın ve farklı gruplarda gerçek zamanlı olarak tartışın."
+  },
+  "tc-join":{
+    "heading":"TeamChat 'e katılın",
+    "subheading":"%{name} sizi _%{room}_ TeamChat odasına katılmaya davet etti",
+    "submit":"E-posta adresimi doğrula",
+    "success-message":"%{room} katıldınız",
+    "username":"Adı",
+    "username-helper":"TeamChat 'te görüneceği gibi ad ekle",
+    "what-is-teamchat":"TeamChat nedir?"
+  },
+  "tc-share":{
+    "heading":"Her şeyi kolayca paylaşın",
+    "subheading":"Herhangi bir belgeyi veya medyayı sürükleyip bırakın; bunları uygulama içinde paylaşın ve düzenleyin."
+  },
+  "title":{
+    "webadmin":"IceWarp WebAdmin",
+    "webclient":"IceWarp WebClient"
+  },
+  "touch-id":{
+    "heading":"Parmakizi ile oturum açın",
+    "use-password":"Bunun yerine şifreyi kullanın"
+  },
+  "two_step":{
+    "verification_code":"Doğrulama kodu",
+    "heading":"İki adımlı doğrulama",
+    "subheading":"Lütfen IceWarp Authenticator uygulamasından 6 haneli kodu girin",
+    "subheading-phone":"Lütfen telefon -%{phone} numaranıza gönderilen 6 haneli kodu girin"
+  },
+  "validation":{
+    "alpha_chars":"Alan en az %{amount} harf içermelidir||||Alan en az %{amount} harf içermelidir",
+    "email":"Geçersiz e-posta",
+    "empty":"Alan boş olamaz",
+    "length":"Uzunluk %{amount} karakter olmalıdır",
+    "min_length":"Minimum uzunluk %{amount} karakter olmalıdır",
+    "non_alpha_num_chars":"Alan en az %{amount} sembol içermelidir||||Alan en az %{amount} alfasayısal olmayan karakter içermelidir",
+    "numeric_chars":"Alan en az %{amount} sayı içermelidir.||||Alan en az %{amount} sayı içermelidir",
+    "passwords-no-match":"Parolalar uyuşmuyor",
+    "upper_alpha_chars":"Alan en az %{amount} büyük harf içermelidir||||Alan en az %{amount} büyük harf içermelidir",
+    "user_alias":"Alan kullanıcı adını içeremez"
+  },
+  "wm-join":{
+    "already-member":"Zaten bir üye misiniz?",
+    "audio-help":"Ses yardımı",
+    "heading":"Web Toplantımıza katılın",
+    "join-webmeeting":"Web Toplantısına katılın",
+    "subheading":"%{name} tarafından oluşturulan Web Toplantısı hazır",
+    "subheading-prepare":"Web Toplantısı bilgisi bekleniyor",
+    "success-message":"%{room} katıldınız",
+    "username":"Ad",
+    "username-helper":"Web Toplantısında göründüğü gibi ad ekleyin"
+  },
+  "wm":{
+    "device-error":"Aygıt hatası",
+    "error":"Web toplantısı sırasında bir hata",
+    "hang-up":"Telefonu kapat",
+    "hang-up-confirm":"Bu web toplantısından çıkmak istediğinize emin misiniz?",
+    "maximize":"Pencereyi büyüt",
+    "microphone-denied":"Mikrofona erişim reddedildi",
+    "microphone-denied-helper":"Bu Web toplantısı sırasında konuşamazsınız",
+    "no-microphone-detected":"Mikrofon algılanmadı",
+    "phone-number":"Telefon numarası",
+    "restore":"Pencereyi geri yükle",
+    "screen-share-started":"Ekran paylaşımı başladı",
+    "screen-share-stopped":"Ekran paylaşımı durdu",
+    "unsupported":"Bu tarayıcı WebRTC'yi desteklemiyor",
+    "unsupported-text":"[Daha fazla bilgi](%{link})",
+    "user-joined":"User **%{name}** toplantıya katıldı",
+    "user-left":"User **%{name}** toplantıdan ayrıldı",
+    "meeting-ended":"Web toplantısı sona erdi.",
+    "welcome-message":"WebMeeting'e Hoş Geldiniz, **%{name}**! Grup sohbeti hazır."
+  }
 }

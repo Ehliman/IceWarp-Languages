@@ -67,10 +67,36 @@
     "next-step":"Další krok"
   },
   "error":{
+    "invalid_login":"Neplatné uživatelské jméno nebo heslo. Prosím zkuste se přihlásit ještě jednou.",
+    "expired":"Spojení již není aktivní",
+    "connection":"Není možné spojit se serverem. Zkontrolujte prosím zda jste připojeni na Internet.",
+    "servererror":"Není možné přistoupit ke službě. Prosím zkuste to později.",
+    "overloaded":"Něco se pokazilo a není možné zpracovat Váš požadavek. Zkuste to prosím později.",
+    "wc_disabled":"Aplikace WebClient je nedostupná.",
+    "invalid_rsa":"Není možné vytvořit RSA heslo.",
+    "no_db":"Chyba spojení na databázi",
+    "no_data":"Nejsou dostupná žádná data.",
+    "access_error":"Není možné načíst poštovní složku. Prosím kontaktujte správce.",
+    "ip_mismatch":"Došlo ke změně Vaší IP adresy. Z bezpečnostních důvodů budete odhlášen. Vždy přistupujte ke službě pomocí zabezpečené HTTPS adresy.",
+    "sso_login_not_allowed":"SSO přihlašování není povoleno",
+    "sso_unable_to_use":"Není možné použít SSO",
+    "sso_error":"Nastala chyba při přihlašování pomocí SSO",
     "auth_login_invalid":"Neplatné přihlašovací jméno nebo heslo",
     "account_already_exists":"Účet již existuje",
     "account_alternative_email":"Účty nemají nastavenou alternativní e-mailovou adresu. Pro přístup k účtu je nutné kontaktovat správce.",
-    "account_disabled":"Účet deaktivován.",
+    "account_disabled_1":"Přihlášení není možné z důvodu omezení IP adresy",
+    "account_disabled_2":"Přihlášení není možné z důvodu omezení uživatelského účtu",
+    "account_disabled_3":"Přihlášení není možné z důvodu vypršení platnosti hesla",
+    "account_disabled_4":"Přihlášení není možné z důvodu vypršení platnosti účtu",
+    "account_disabled_5":"Přihlášení není možné z důvodu omezení přístupu k SMTP",
+    "account_disabled_6":"Přihlášení není možné z důvodu omezení k POP\/IMAP službě",
+    "account_disabled_7":"Přihlášení není možné, protože účet je přístupný pouze přes IMAP",
+    "account_disabled_8":"Přihlášení není možné protože účet je dostupný pouze přes POP3",
+    "account_disabled_9":"Přihlášení není možné protože účet nemá přistupová práva k WebClient rozhraní",
+    "account_disabled_10":"Přihlášení není možné z důvodu omezení přístupu",
+    "account_disabled_11":"Přihlášení není možné z důvodu omezení přístupu do domény",
+    "account_disabled_12":"Přihlšení nebylo možné z důvody vypršení platnosti domény",
+    "account_disabled_13":"Přihlášení není možné z důvodu problému s licencí",
     "account_invalid":"Neplatný účet",
     "account_does_not_exist":"Účet neexistuje",
     "account_missing_required_property":"Některé z požadovaných nastavení schází",
@@ -80,6 +106,8 @@
     "account_password_policy":"Heslo není možné použít kvůli nastavené politice hesel",
     "account_signup_disabled":"Vytvoření vlastního účtu je zakázené",
     "account_signup_disabled_ip":"Správce zakázal možnost přihlášení z Vaší IP adresy",
+    "auth_digest_expired":"Přihlášení vypršelo, prosím přihlašte se znovu",
+    "auth_two_factor_invalid":"Neplatný ověřovací kód",
     "auth_webadmin_session_not_found":"WebAdmin spojení nebylo nalezeno",
     "captcha_confirmation":"Neplatný bezpečnostní kód",
     "contact_support_no_admin_email":"Správce nenastavil e-mailovou adresu",
@@ -125,9 +153,6 @@
     "signup_verification_failed_email":"Není možné odeslat ověřovací e-mail",
     "signup_verification_not_initialized":"Verifikace nezačala",
     "signup_verification_failed":"Verifikace selhala",
-    "sso_login_not_allowed":"SSO přihlašování není povoleno",
-    "sso_unable_to_use":"Není možné použít SSO",
-    "sso_error":"Nastala chyba při přihlašování pomocí SSO",
     "storage_get_dom":"Nebylo možné načíst soubor s nastavením",
     "unavailable":"Dočasně nedostupný",
     "unspecified":"Server vrátil chybu **%{error}**",
@@ -231,7 +256,7 @@
   },
   "sign-in-password":{
     "forgot":"Zapomněli jste ?",
-    "remember":"Udržet mě přihlášeného"
+    "remember":"Zůstat přihlášený"
   },
   "tc-actions":{
     "heading":"Akce tlačítka plus",
@@ -268,6 +293,12 @@
     "heading":"Přihlašte se pomocí TouchID",
     "use-password":"Použít heslo"
   },
+  "two_step":{
+    "verification_code":"Ověřovací kód",
+    "heading":"Dvoufaktorové ověření",
+    "subheading":"Prosím zadejte 6 místný kód z aplikace IceWarp Authenticator",
+    "subheading-phone":"Prosím zadejte 6 místný kód odeslaný na mobilní telefon končící -%{phone}"
+  },
   "validation":{
     "alpha_chars":"Pole musí obsahovat alespoň %{amount} písmen||||Pole musí obsahovat alespoň %{amount} písmen",
     "email":"Neplatná e-mailová adresa",
@@ -292,6 +323,7 @@
     "username-helper":"Nastavte jméno pod kterým si přejete vystupovat v aplikaci WebMeeting"
   },
   "wm":{
+    "device-error":"Chyba zařízení",
     "error":"Nastala chyba v aplikaci WebMeeting",
     "hang-up":"Odejít",
     "hang-up-confirm":"Opravdu si přejete odejít z webmeetingu ?",

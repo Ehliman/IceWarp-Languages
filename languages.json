@@ -1,13 +1,14 @@
 {
 	"ar": "اللغة العربية",
 	"bg": "български",
+	"cn": "简体中文",
 	"cs": "Čeština",
 	"de": "Deutsch",
 	"dk": "Dansk",
 	"el": "Ελληνικά",
 	"en": "English",
 	"es": "Español",
-	"fa": "دری",
+	"fa": "فارسی",
 	"fi": "Suomi",
 	"fr": "Français",
 	"he": "עִבְרִית",
@@ -26,5 +27,7 @@
 	"se": "Svenska",
 	"sk": "Slovenčina",
 	"th": "ไทย",
-	"tr": "Türkçe"
+	"tr": "Türkçe",
+	"ro": "Română",
+	"ua": "Українська"
 }
